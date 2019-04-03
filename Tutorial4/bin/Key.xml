@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<doc>
+	<Identification>
+		<Version Value="3.2.6.0"/>
+	</Identification>
+	<Properties>
+		<Property Name="projectFile" Value="Tutorial4.debug.psc"/>
+		<Property Name="projectVersion" Value="1.0"/>
+		<Property Name="projectName" Value="Tutorial4"/>
+		<Property Name="projectClient" Value="Sopra"/>
+		<Property Name="licenceURL" Value=""/>
+	</Properties>
+	<Properties Name="authentication">
+		<Property Name="result" Value="MIIBJwYJKoZIhvcNAQcCoIIBGDCCARQCAQExDzANBgkqhkiG9w0BAQUFADAvBgkq
+hkiG9w0BBwGgIgQgQwB0AHgAdABEAGUAZgBhAHUAbAB0AE0AYQByAGsAAAAxgcww
+gckCAQEwJDAcMRowGAYDVQQDExFOTyBDRVJUIFNJR05BVFVSRQIEEjRWeDANBgkq
+hkiG9w0BAQUFADAMBggqhkiG9w0DBAUABIGAwf7Mq8PJZ1gRfw9YCDoY9ziFVjKW
+poY/0gL84vJUYXVsHuJ/o4l1dWvbBUx7U+/hV7+tGI4euT+KsVLUzFaXH4V+xGGF
+g7I4P3nXztjLAdUJOwRaX3VDMtNIusJbQDSs+xQkswPweA+kWjXzx1UzLQdTbheb
+UeSOhUry6/qpfNw=
+" Type="1"/>
+	</Properties>
+	<Keys Name="authentication">
+	</Keys>
+	<UpdatePackages>
+	</UpdatePackages>
+	<KeyNames Value="" Type="32771"/>
+	<KeyContent Value="" Type="32771"/>
+	<KeyProps Value="53c28fd848b141fbe6227fa834b4b6ba" Type="32771"/>
+</doc>

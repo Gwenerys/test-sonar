@@ -1,0 +1,1946 @@
+﻿<PAGE Techno="WIN" Name="PAGE_SampleCRM_0943406_1" ProcessName="SAMPLECRM.EXE" ParamName="Sample CRM" ParentTree="11733754|65552">
+	<PROPERTIES>
+		<IDENT>0</IDENT>
+		<TITRE>Sample CRM</TITRE>
+		<CLASS>#32770</CLASS>
+		<STYLE>WS_BORDER WS_CAPTION WS_DLGFRAME WS_POPUP WS_POPUPWINDOW WS_SYSMENU DS_MODALFRAME WS_VISIBLE WS_SYSMENU</STYLE>
+		<EXSTYLE>WS_EX_APPWINDOW WS_EX_CONTROLPARENT WS_EX_DLGMODALFRAME WS_EX_WINDOWEDGE</EXSTYLE>
+		<ROW />
+		<VRANGE>pas implémenté pour l'instant</VRANGE>
+		<NBPARENT>1</NBPARENT>
+		<NBCHILD>44</NBCHILD>
+		<X>0</X>
+		<XMax>0</XMax>
+		<XMin>0</XMin>
+		<Y>0</Y>
+		<YMax>0</YMax>
+		<YMin>0</YMin>
+		<CX>611</CX>
+		<CXMax>611</CXMax>
+		<CXMin>611</CXMin>
+		<CY>367</CY>
+		<CYMax>367</CYMax>
+		<CYMin>367</CYMin>
+		<RX>-611</RX>
+		<BY>-367</BY>
+		<EXE>SAMPLECRM.EXE</EXE>
+	</PROPERTIES>
+	<CHILDREN>
+		<ITEM>
+			<PROPERTIES>
+				<IDENT>0</IDENT>
+				<TITRE>Sample CRM</TITRE>
+				<CLASS>#32770</CLASS>
+				<STYLE>WS_BORDER WS_CAPTION WS_DLGFRAME WS_POPUP WS_POPUPWINDOW WS_SYSMENU DS_MODALFRAME WS_VISIBLE WS_SYSMENU</STYLE>
+				<EXSTYLE>WS_EX_APPWINDOW WS_EX_CONTROLPARENT WS_EX_DLGMODALFRAME WS_EX_WINDOWEDGE</EXSTYLE>
+				<ROW />
+				<VRANGE>pas implémenté pour l'instant</VRANGE>
+				<NBPARENT>1</NBPARENT>
+				<NBCHILD>44</NBCHILD>
+				<X>0</X>
+				<XMax>0</XMax>
+				<XMin>0</XMin>
+				<Y>0</Y>
+				<YMax>0</YMax>
+				<YMin>0</YMin>
+				<CX>611</CX>
+				<CXMax>611</CXMax>
+				<CXMin>611</CXMin>
+				<CY>367</CY>
+				<CYMax>367</CYMax>
+				<CYMin>367</CYMin>
+				<RX>-611</RX>
+				<BY>-367</BY>
+				<EXE>SAMPLECRM.EXE</EXE>
+			</PROPERTIES>
+			<CTX_PROPS>
+				<BOUNDINGRECT>0|0|611|367</BOUNDINGRECT>
+				<TITLE>#32770 - Sample CRM</TITLE>
+				<NAMEKEY>IDENT</NAMEKEY>
+				<CONTROLTYPE>#32770</CONTROLTYPE>
+				<PREFIX />
+				<TEXT>Sample CRM</TEXT>
+				<TEXTKEY>TITRE</TEXTKEY>
+				<PARAMNAME>Sample CRM</PARAMNAME>
+				<PARENTTREE>11733754|65552</PARENTTREE>
+				<ISVISIBLE>True</ISVISIBLE>
+			</CTX_PROPS>
+			<CHILDREN>
+				<ITEM>
+					<PROPERTIES>
+						<IDENT>-1</IDENT>
+						<TITRE>Contract Id :</TITRE>
+						<CLASS>Static</CLASS>
+						<STYLE>WS_CHILD WS_GROUP WS_VISIBLE</STYLE>
+						<ROW>R1</ROW>
+						<VRANGE>pas implémenté pour l'instant</VRANGE>
+						<NBPARENT>2</NBPARENT>
+						<NBCHILD>44</NBCHILD>
+						<X>30</X>
+						<XMax>30</XMax>
+						<XMin>30</XMin>
+						<Y>62</Y>
+						<YMax>62</YMax>
+						<YMin>62</YMin>
+						<CX>63</CX>
+						<CXMax>63</CXMax>
+						<CXMin>63</CXMin>
+						<CY>13</CY>
+						<CYMax>13</CYMax>
+						<CYMin>13</CYMin>
+						<RX>-581</RX>
+						<BY>-305</BY>
+					</PROPERTIES>
+					<CTX_PROPS>
+						<BOUNDINGRECT>30|62|63|13</BOUNDINGRECT>
+						<TITLE>Static - Contract Id :</TITLE>
+						<NAMEKEY>IDENT</NAMEKEY>
+						<CONTROLTYPE>Static</CONTROLTYPE>
+						<PREFIX>st</PREFIX>
+						<TEXT>Contract Id :</TEXT>
+						<TEXTKEY>TITRE</TEXTKEY>
+						<PARAMNAME>Contract Id :</PARAMNAME>
+						<PARENTTREE>4654478|11733754|65552</PARENTTREE>
+						<ISVISIBLE>True</ISVISIBLE>
+					</CTX_PROPS>
+				</ITEM>
+				<ITEM>
+					<PROPERTIES>
+						<IDENT>1000</IDENT>
+						<CLASS>Edit</CLASS>
+						<STYLE>WS_CHILD DS_MODALFRAME WS_TABSTOP WS_VISIBLE</STYLE>
+						<ROW>R2</ROW>
+						<VRANGE>pas implémenté pour l'instant</VRANGE>
+						<NBPARENT>2</NBPARENT>
+						<NBCHILD>44</NBCHILD>
+						<X>98</X>
+						<XMax>98</XMax>
+						<XMin>98</XMin>
+						<Y>59</Y>
+						<YMax>59</YMax>
+						<YMin>59</YMin>
+						<CX>120</CX>
+						<CXMax>120</CXMax>
+						<CXMin>120</CXMin>
+						<CY>21</CY>
+						<CYMax>21</CYMax>
+						<CYMin>21</CYMin>
+						<RX>-513</RX>
+						<BY>-308</BY>
+					</PROPERTIES>
+					<CTX_PROPS>
+						<BOUNDINGRECT>98|59|120|21</BOUNDINGRECT>
+						<TITLE>Edit</TITLE>
+						<NAMEKEY>IDENT</NAMEKEY>
+						<CONTROLTYPE>Edit</CONTROLTYPE>
+						<PREFIX>ed</PREFIX>
+						<TEXT />
+						<TEXTKEY>TITRE</TEXTKEY>
+						<PARAMNAME>Edit</PARAMNAME>
+						<PARENTTREE>12191620|11733754|65552</PARENTTREE>
+						<ISVISIBLE>True</ISVISIBLE>
+					</CTX_PROPS>
+				</ITEM>
+				<ITEM>
+					<PROPERTIES>
+						<IDENT>1001</IDENT>
+						<TITRE>Search</TITRE>
+						<CLASS>Button</CLASS>
+						<STYLE>WS_CHILD WS_TABSTOP WS_VISIBLE</STYLE>
+						<ROW>R3</ROW>
+						<VRANGE>pas implémenté pour l'instant</VRANGE>
+						<NBPARENT>2</NBPARENT>
+						<NBCHILD>44</NBCHILD>
+						<X>227</X>
+						<XMax>227</XMax>
+						<XMin>227</XMin>
+						<Y>57</Y>
+						<YMax>57</YMax>
+						<YMin>57</YMin>
+						<CX>78</CX>
+						<CXMax>78</CXMax>
+						<CXMin>78</CXMin>
+						<CY>23</CY>
+						<CYMax>23</CYMax>
+						<CYMin>23</CYMin>
+						<RX>-384</RX>
+						<BY>-310</BY>
+					</PROPERTIES>
+					<CTX_PROPS>
+						<BOUNDINGRECT>227|57|78|23</BOUNDINGRECT>
+						<TITLE>Button - Search</TITLE>
+						<NAMEKEY>IDENT</NAMEKEY>
+						<CONTROLTYPE>Button</CONTROLTYPE>
+						<PREFIX>bt</PREFIX>
+						<TEXT>Search</TEXT>
+						<TEXTKEY>TITRE</TEXTKEY>
+						<PARAMNAME>Search</PARAMNAME>
+						<PARENTTREE>10619666|11733754|65552</PARENTTREE>
+						<ISVISIBLE>True</ISVISIBLE>
+					</CTX_PROPS>
+				</ITEM>
+				<ITEM>
+					<PROPERTIES>
+						<IDENT>-1</IDENT>
+						<TITRE>Name :</TITRE>
+						<CLASS>Static</CLASS>
+						<STYLE>WS_CHILD WS_GROUP WS_VISIBLE</STYLE>
+						<ROW>R4</ROW>
+						<VRANGE>pas implémenté pour l'instant</VRANGE>
+						<NBPARENT>2</NBPARENT>
+						<NBCHILD>44</NBCHILD>
+						<X>30</X>
+						<XMax>30</XMax>
+						<XMin>30</XMin>
+						<Y>88</Y>
+						<YMax>88</YMax>
+						<YMin>88</YMin>
+						<CX>63</CX>
+						<CXMax>63</CXMax>
+						<CXMin>63</CXMin>
+						<CY>13</CY>
+						<CYMax>13</CYMax>
+						<CYMin>13</CYMin>
+						<RX>-581</RX>
+						<BY>-279</BY>
+					</PROPERTIES>
+					<CTX_PROPS>
+						<BOUNDINGRECT>30|88|63|13</BOUNDINGRECT>
+						<TITLE>Static - Name :</TITLE>
+						<NAMEKEY>IDENT</NAMEKEY>
+						<CONTROLTYPE>Static</CONTROLTYPE>
+						<PREFIX>st</PREFIX>
+						<TEXT>Name :</TEXT>
+						<TEXTKEY>TITRE</TEXTKEY>
+						<PARAMNAME>Name :</PARAMNAME>
+						<PARENTTREE>10815778|11733754|65552</PARENTTREE>
+						<ISVISIBLE>True</ISVISIBLE>
+					</CTX_PROPS>
+				</ITEM>
+				<ITEM>
+					<PROPERTIES>
+						<IDENT>-1</IDENT>
+						<TITRE>Firstname</TITRE>
+						<CLASS>Static</CLASS>
+						<STYLE>WS_CHILD WS_GROUP WS_VISIBLE</STYLE>
+						<ROW>R5</ROW>
+						<VRANGE>pas implémenté pour l'instant</VRANGE>
+						<NBPARENT>2</NBPARENT>
+						<NBCHILD>44</NBCHILD>
+						<X>30</X>
+						<XMax>30</XMax>
+						<XMin>30</XMin>
+						<Y>114</Y>
+						<YMax>114</YMax>
+						<YMin>114</YMin>
+						<CX>63</CX>
+						<CXMax>63</CXMax>
+						<CXMin>63</CXMin>
+						<CY>13</CY>
+						<CYMax>13</CYMax>
+						<CYMin>13</CYMin>
+						<RX>-581</RX>
+						<BY>-253</BY>
+					</PROPERTIES>
+					<CTX_PROPS>
+						<BOUNDINGRECT>30|114|63|13</BOUNDINGRECT>
+						<TITLE>Static - Firstname</TITLE>
+						<NAMEKEY>IDENT</NAMEKEY>
+						<CONTROLTYPE>Static</CONTROLTYPE>
+						<PREFIX>st</PREFIX>
+						<TEXT>Firstname</TEXT>
+						<TEXTKEY>TITRE</TEXTKEY>
+						<PARAMNAME>Firstname</PARAMNAME>
+						<PARENTTREE>12127898|11733754|65552</PARENTTREE>
+						<ISVISIBLE>True</ISVISIBLE>
+					</CTX_PROPS>
+				</ITEM>
+				<ITEM>
+					<PROPERTIES>
+						<IDENT>-1</IDENT>
+						<TITRE>Address :</TITRE>
+						<CLASS>Static</CLASS>
+						<STYLE>WS_CHILD WS_GROUP WS_VISIBLE</STYLE>
+						<ROW>R6</ROW>
+						<VRANGE>pas implémenté pour l'instant</VRANGE>
+						<NBPARENT>2</NBPARENT>
+						<NBCHILD>44</NBCHILD>
+						<X>30</X>
+						<XMax>30</XMax>
+						<XMin>30</XMin>
+						<Y>140</Y>
+						<YMax>140</YMax>
+						<YMin>140</YMin>
+						<CX>63</CX>
+						<CXMax>63</CXMax>
+						<CXMin>63</CXMin>
+						<CY>13</CY>
+						<CYMax>13</CYMax>
+						<CYMin>13</CYMin>
+						<RX>-581</RX>
+						<BY>-227</BY>
+					</PROPERTIES>
+					<CTX_PROPS>
+						<BOUNDINGRECT>30|140|63|13</BOUNDINGRECT>
+						<TITLE>Static - Address :</TITLE>
+						<NAMEKEY>IDENT</NAMEKEY>
+						<CONTROLTYPE>Static</CONTROLTYPE>
+						<PREFIX>st</PREFIX>
+						<TEXT>Address :</TEXT>
+						<TEXTKEY>TITRE</TEXTKEY>
+						<PARAMNAME>Address :</PARAMNAME>
+						<PARENTTREE>9835798|11733754|65552</PARENTTREE>
+						<ISVISIBLE>True</ISVISIBLE>
+					</CTX_PROPS>
+				</ITEM>
+				<ITEM>
+					<PROPERTIES>
+						<IDENT>-1</IDENT>
+						<TITRE>ZIP Code :</TITRE>
+						<CLASS>Static</CLASS>
+						<STYLE>WS_CHILD WS_GROUP WS_VISIBLE</STYLE>
+						<ROW>R7</ROW>
+						<VRANGE>pas implémenté pour l'instant</VRANGE>
+						<NBPARENT>2</NBPARENT>
+						<NBCHILD>44</NBCHILD>
+						<X>30</X>
+						<XMax>30</XMax>
+						<XMin>30</XMin>
+						<Y>166</Y>
+						<YMax>166</YMax>
+						<YMin>166</YMin>
+						<CX>63</CX>
+						<CXMax>63</CXMax>
+						<CXMin>63</CXMin>
+						<CY>13</CY>
+						<CYMax>13</CYMax>
+						<CYMin>13</CYMin>
+						<RX>-581</RX>
+						<BY>-201</BY>
+					</PROPERTIES>
+					<CTX_PROPS>
+						<BOUNDINGRECT>30|166|63|13</BOUNDINGRECT>
+						<TITLE>Static - ZIP Code :</TITLE>
+						<NAMEKEY>IDENT</NAMEKEY>
+						<CONTROLTYPE>Static</CONTROLTYPE>
+						<PREFIX>st</PREFIX>
+						<TEXT>ZIP Code :</TEXT>
+						<TEXTKEY>TITRE</TEXTKEY>
+						<PARAMNAME>ZIP Code :</PARAMNAME>
+						<PARENTTREE>17433198|11733754|65552</PARENTTREE>
+						<ISVISIBLE>True</ISVISIBLE>
+					</CTX_PROPS>
+				</ITEM>
+				<ITEM>
+					<PROPERTIES>
+						<IDENT>-1</IDENT>
+						<TITRE>City :</TITRE>
+						<CLASS>Static</CLASS>
+						<STYLE>WS_CHILD WS_GROUP WS_VISIBLE</STYLE>
+						<ROW>R8</ROW>
+						<VRANGE>pas implémenté pour l'instant</VRANGE>
+						<NBPARENT>2</NBPARENT>
+						<NBCHILD>44</NBCHILD>
+						<X>30</X>
+						<XMax>30</XMax>
+						<XMin>30</XMin>
+						<Y>192</Y>
+						<YMax>192</YMax>
+						<YMin>192</YMin>
+						<CX>63</CX>
+						<CXMax>63</CXMax>
+						<CXMin>63</CXMin>
+						<CY>13</CY>
+						<CYMax>13</CYMax>
+						<CYMin>13</CYMin>
+						<RX>-581</RX>
+						<BY>-175</BY>
+					</PROPERTIES>
+					<CTX_PROPS>
+						<BOUNDINGRECT>30|192|63|13</BOUNDINGRECT>
+						<TITLE>Static - City :</TITLE>
+						<NAMEKEY>IDENT</NAMEKEY>
+						<CONTROLTYPE>Static</CONTROLTYPE>
+						<PREFIX>st</PREFIX>
+						<TEXT>City :</TEXT>
+						<TEXTKEY>TITRE</TEXTKEY>
+						<PARAMNAME>City :</PARAMNAME>
+						<PARENTTREE>7934712|11733754|65552</PARENTTREE>
+						<ISVISIBLE>True</ISVISIBLE>
+					</CTX_PROPS>
+				</ITEM>
+				<ITEM>
+					<PROPERTIES>
+						<IDENT>1002</IDENT>
+						<CLASS>Edit</CLASS>
+						<STYLE>WS_CHILD DS_MODALFRAME WS_TABSTOP WS_VISIBLE</STYLE>
+						<ROW>R9</ROW>
+						<VRANGE>pas implémenté pour l'instant</VRANGE>
+						<NBPARENT>2</NBPARENT>
+						<NBCHILD>44</NBCHILD>
+						<X>98</X>
+						<XMax>98</XMax>
+						<XMin>98</XMin>
+						<Y>111</Y>
+						<YMax>111</YMax>
+						<YMin>111</YMin>
+						<CX>207</CX>
+						<CXMax>207</CXMax>
+						<CXMin>207</CXMin>
+						<CY>21</CY>
+						<CYMax>21</CYMax>
+						<CYMin>21</CYMin>
+						<RX>-513</RX>
+						<BY>-256</BY>
+					</PROPERTIES>
+					<CTX_PROPS>
+						<BOUNDINGRECT>98|111|207|21</BOUNDINGRECT>
+						<TITLE>Edit</TITLE>
+						<NAMEKEY>IDENT</NAMEKEY>
+						<CONTROLTYPE>Edit</CONTROLTYPE>
+						<PREFIX>ed</PREFIX>
+						<TEXT />
+						<TEXTKEY>TITRE</TEXTKEY>
+						<PARAMNAME>Edit</PARAMNAME>
+						<PARENTTREE>1512264|11733754|65552</PARENTTREE>
+						<ISVISIBLE>True</ISVISIBLE>
+					</CTX_PROPS>
+				</ITEM>
+				<ITEM>
+					<PROPERTIES>
+						<IDENT>1003</IDENT>
+						<CLASS>Edit</CLASS>
+						<STYLE>WS_CHILD DS_MODALFRAME WS_TABSTOP WS_VISIBLE</STYLE>
+						<ROW>R10</ROW>
+						<VRANGE>pas implémenté pour l'instant</VRANGE>
+						<NBPARENT>2</NBPARENT>
+						<NBCHILD>44</NBCHILD>
+						<X>98</X>
+						<XMax>98</XMax>
+						<XMin>98</XMin>
+						<Y>85</Y>
+						<YMax>85</YMax>
+						<YMin>85</YMin>
+						<CX>207</CX>
+						<CXMax>207</CXMax>
+						<CXMin>207</CXMin>
+						<CY>21</CY>
+						<CYMax>21</CYMax>
+						<CYMin>21</CYMin>
+						<RX>-513</RX>
+						<BY>-282</BY>
+					</PROPERTIES>
+					<CTX_PROPS>
+						<BOUNDINGRECT>98|85|207|21</BOUNDINGRECT>
+						<TITLE>Edit</TITLE>
+						<NAMEKEY>IDENT</NAMEKEY>
+						<CONTROLTYPE>Edit</CONTROLTYPE>
+						<PREFIX>ed</PREFIX>
+						<TEXT />
+						<TEXTKEY>TITRE</TEXTKEY>
+						<PARAMNAME>Edit</PARAMNAME>
+						<PARENTTREE>8590390|11733754|65552</PARENTTREE>
+						<ISVISIBLE>True</ISVISIBLE>
+					</CTX_PROPS>
+				</ITEM>
+				<ITEM>
+					<PROPERTIES>
+						<IDENT>1004</IDENT>
+						<CLASS>Edit</CLASS>
+						<STYLE>WS_CHILD DS_MODALFRAME WS_TABSTOP WS_VISIBLE</STYLE>
+						<ROW>R11</ROW>
+						<VRANGE>pas implémenté pour l'instant</VRANGE>
+						<NBPARENT>2</NBPARENT>
+						<NBCHILD>44</NBCHILD>
+						<X>98</X>
+						<XMax>98</XMax>
+						<XMin>98</XMin>
+						<Y>137</Y>
+						<YMax>137</YMax>
+						<YMin>137</YMin>
+						<CX>207</CX>
+						<CXMax>207</CXMax>
+						<CXMin>207</CXMin>
+						<CY>21</CY>
+						<CYMax>21</CYMax>
+						<CYMin>21</CYMin>
+						<RX>-513</RX>
+						<BY>-230</BY>
+					</PROPERTIES>
+					<CTX_PROPS>
+						<BOUNDINGRECT>98|137|207|21</BOUNDINGRECT>
+						<TITLE>Edit</TITLE>
+						<NAMEKEY>IDENT</NAMEKEY>
+						<CONTROLTYPE>Edit</CONTROLTYPE>
+						<PREFIX>ed</PREFIX>
+						<TEXT />
+						<TEXTKEY>TITRE</TEXTKEY>
+						<PARAMNAME>Edit</PARAMNAME>
+						<PARENTTREE>8982362|11733754|65552</PARENTTREE>
+						<ISVISIBLE>True</ISVISIBLE>
+					</CTX_PROPS>
+				</ITEM>
+				<ITEM>
+					<PROPERTIES>
+						<IDENT>1005</IDENT>
+						<CLASS>Edit</CLASS>
+						<STYLE>WS_CHILD DS_MODALFRAME WS_TABSTOP WS_VISIBLE</STYLE>
+						<ROW>R12</ROW>
+						<VRANGE>pas implémenté pour l'instant</VRANGE>
+						<NBPARENT>2</NBPARENT>
+						<NBCHILD>44</NBCHILD>
+						<X>98</X>
+						<XMax>98</XMax>
+						<XMin>98</XMin>
+						<Y>163</Y>
+						<YMax>163</YMax>
+						<YMin>163</YMin>
+						<CX>207</CX>
+						<CXMax>207</CXMax>
+						<CXMin>207</CXMin>
+						<CY>21</CY>
+						<CYMax>21</CYMax>
+						<CYMin>21</CYMin>
+						<RX>-513</RX>
+						<BY>-204</BY>
+					</PROPERTIES>
+					<CTX_PROPS>
+						<BOUNDINGRECT>98|163|207|21</BOUNDINGRECT>
+						<TITLE>Edit</TITLE>
+						<NAMEKEY>IDENT</NAMEKEY>
+						<CONTROLTYPE>Edit</CONTROLTYPE>
+						<PREFIX>ed</PREFIX>
+						<TEXT />
+						<TEXTKEY>TITRE</TEXTKEY>
+						<PARAMNAME>Edit</PARAMNAME>
+						<PARENTTREE>7276462|11733754|65552</PARENTTREE>
+						<ISVISIBLE>True</ISVISIBLE>
+					</CTX_PROPS>
+					<CHILDREN>
+						<ITEM>
+							<PROPERTIES>
+								<Ident>-1</Ident>
+							</PROPERTIES>
+							<CTX_PROPS>
+								<BOUNDINGRECT>-378|-181|0|0</BOUNDINGRECT>
+								<TITLE>Menu -  </TITLE>
+								<NAMEKEY>Ident</NAMEKEY>
+								<CONTROLTYPE>Menu</CONTROLTYPE>
+								<PREFIX>mn</PREFIX>
+								<TEXT> </TEXT>
+								<TEXTKEY />
+								<PARAMNAME> </PARAMNAME>
+								<PARENTTREE />
+								<ISVISIBLE>False</ISVISIBLE>
+							</CTX_PROPS>
+							<CHILDREN>
+								<ITEM>
+									<PROPERTIES>
+										<Ident>61728</Ident>
+									</PROPERTIES>
+									<CTX_PROPS>
+										<BOUNDINGRECT>-378|-181|0|0</BOUNDINGRECT>
+										<TITLE>Menu - &amp;Restaurer</TITLE>
+										<NAMEKEY>Ident</NAMEKEY>
+										<CONTROLTYPE>Menu</CONTROLTYPE>
+										<PREFIX>mn</PREFIX>
+										<TEXT>&amp;Restaurer</TEXT>
+										<TEXTKEY />
+										<PARAMNAME>&amp;Restaurer</PARAMNAME>
+										<PARENTTREE />
+										<ISVISIBLE>False</ISVISIBLE>
+									</CTX_PROPS>
+								</ITEM>
+								<ITEM>
+									<PROPERTIES>
+										<Ident>61456</Ident>
+									</PROPERTIES>
+									<CTX_PROPS>
+										<BOUNDINGRECT>-378|-181|0|0</BOUNDINGRECT>
+										<TITLE>Menu - Dép&amp;lacer</TITLE>
+										<NAMEKEY>Ident</NAMEKEY>
+										<CONTROLTYPE>Menu</CONTROLTYPE>
+										<PREFIX>mn</PREFIX>
+										<TEXT>Dép&amp;lacer</TEXT>
+										<TEXTKEY />
+										<PARAMNAME>Dép&amp;lacer</PARAMNAME>
+										<PARENTTREE />
+										<ISVISIBLE>False</ISVISIBLE>
+									</CTX_PROPS>
+								</ITEM>
+								<ITEM>
+									<PROPERTIES>
+										<Ident>61440</Ident>
+									</PROPERTIES>
+									<CTX_PROPS>
+										<BOUNDINGRECT>-378|-181|0|0</BOUNDINGRECT>
+										<TITLE>Menu - &amp;Taille</TITLE>
+										<NAMEKEY>Ident</NAMEKEY>
+										<CONTROLTYPE>Menu</CONTROLTYPE>
+										<PREFIX>mn</PREFIX>
+										<TEXT>&amp;Taille</TEXT>
+										<TEXTKEY />
+										<PARAMNAME>&amp;Taille</PARAMNAME>
+										<PARENTTREE />
+										<ISVISIBLE>False</ISVISIBLE>
+									</CTX_PROPS>
+								</ITEM>
+								<ITEM>
+									<PROPERTIES>
+										<Ident>61472</Ident>
+									</PROPERTIES>
+									<CTX_PROPS>
+										<BOUNDINGRECT>-378|-181|0|0</BOUNDINGRECT>
+										<TITLE>Menu - Réd&amp;uire</TITLE>
+										<NAMEKEY>Ident</NAMEKEY>
+										<CONTROLTYPE>Menu</CONTROLTYPE>
+										<PREFIX>mn</PREFIX>
+										<TEXT>Réd&amp;uire</TEXT>
+										<TEXTKEY />
+										<PARAMNAME>Réd&amp;uire</PARAMNAME>
+										<PARENTTREE />
+										<ISVISIBLE>False</ISVISIBLE>
+									</CTX_PROPS>
+								</ITEM>
+								<ITEM>
+									<PROPERTIES>
+										<Ident>61488</Ident>
+									</PROPERTIES>
+									<CTX_PROPS>
+										<BOUNDINGRECT>-378|-181|0|0</BOUNDINGRECT>
+										<TITLE>Menu - Agra&amp;ndir</TITLE>
+										<NAMEKEY>Ident</NAMEKEY>
+										<CONTROLTYPE>Menu</CONTROLTYPE>
+										<PREFIX>mn</PREFIX>
+										<TEXT>Agra&amp;ndir</TEXT>
+										<TEXTKEY />
+										<PARAMNAME>Agra&amp;ndir</PARAMNAME>
+										<PARENTTREE />
+										<ISVISIBLE>False</ISVISIBLE>
+									</CTX_PROPS>
+								</ITEM>
+								<ITEM>
+									<PROPERTIES>
+										<Ident>0</Ident>
+									</PROPERTIES>
+									<CTX_PROPS>
+										<BOUNDINGRECT>-378|-181|0|0</BOUNDINGRECT>
+										<TITLE>Menu</TITLE>
+										<NAMEKEY>Ident</NAMEKEY>
+										<CONTROLTYPE>Menu</CONTROLTYPE>
+										<PREFIX>mn</PREFIX>
+										<TEXT />
+										<TEXTKEY />
+										<PARAMNAME>Menu</PARAMNAME>
+										<PARENTTREE />
+										<ISVISIBLE>False</ISVISIBLE>
+									</CTX_PROPS>
+								</ITEM>
+								<ITEM>
+									<PROPERTIES>
+										<Ident>61536</Ident>
+									</PROPERTIES>
+									<CTX_PROPS>
+										<BOUNDINGRECT>-378|-181|0|0</BOUNDINGRECT>
+										<TITLE>Menu - &amp;Fermer	Alt+F4</TITLE>
+										<NAMEKEY>Ident</NAMEKEY>
+										<CONTROLTYPE>Menu</CONTROLTYPE>
+										<PREFIX>mn</PREFIX>
+										<TEXT>&amp;Fermer	Alt+F4</TEXT>
+										<TEXTKEY />
+										<PARAMNAME>&amp;Fermer	Alt+F4</PARAMNAME>
+										<PARENTTREE />
+										<ISVISIBLE>False</ISVISIBLE>
+									</CTX_PROPS>
+								</ITEM>
+							</CHILDREN>
+						</ITEM>
+					</CHILDREN>
+				</ITEM>
+				<ITEM>
+					<PROPERTIES>
+						<IDENT>1006</IDENT>
+						<CLASS>Edit</CLASS>
+						<STYLE>WS_CHILD DS_MODALFRAME WS_TABSTOP WS_VISIBLE</STYLE>
+						<ROW>R13</ROW>
+						<VRANGE>pas implémenté pour l'instant</VRANGE>
+						<NBPARENT>2</NBPARENT>
+						<NBCHILD>44</NBCHILD>
+						<X>98</X>
+						<XMax>98</XMax>
+						<XMin>98</XMin>
+						<Y>189</Y>
+						<YMax>189</YMax>
+						<YMin>189</YMin>
+						<CX>207</CX>
+						<CXMax>207</CXMax>
+						<CXMin>207</CXMin>
+						<CY>21</CY>
+						<CYMax>21</CYMax>
+						<CYMin>21</CYMin>
+						<RX>-513</RX>
+						<BY>-178</BY>
+					</PROPERTIES>
+					<CTX_PROPS>
+						<BOUNDINGRECT>98|189|207|21</BOUNDINGRECT>
+						<TITLE>Edit</TITLE>
+						<NAMEKEY>IDENT</NAMEKEY>
+						<CONTROLTYPE>Edit</CONTROLTYPE>
+						<PREFIX>ed</PREFIX>
+						<TEXT />
+						<TEXTKEY>TITRE</TEXTKEY>
+						<PARAMNAME>Edit</PARAMNAME>
+						<PARENTTREE>3215510|11733754|65552</PARENTTREE>
+						<ISVISIBLE>True</ISVISIBLE>
+					</CTX_PROPS>
+				</ITEM>
+				<ITEM>
+					<PROPERTIES>
+						<IDENT>-1</IDENT>
+						<TITRE>Age</TITRE>
+						<CLASS>Button</CLASS>
+						<STYLE>WS_CHILD WS_VISIBLE</STYLE>
+						<ROW>R14</ROW>
+						<VRANGE>pas implémenté pour l'instant</VRANGE>
+						<NBPARENT>2</NBPARENT>
+						<NBCHILD>44</NBCHILD>
+						<X>464</X>
+						<XMax>464</XMax>
+						<XMin>464</XMin>
+						<Y>41</Y>
+						<YMax>41</YMax>
+						<YMin>41</YMin>
+						<CX>134</CX>
+						<CXMax>134</CXMax>
+						<CXMin>134</CXMin>
+						<CY>151</CY>
+						<CYMax>151</CYMax>
+						<CYMin>151</CYMin>
+						<RX>-147</RX>
+						<BY>-326</BY>
+					</PROPERTIES>
+					<CTX_PROPS>
+						<BOUNDINGRECT>464|41|134|151</BOUNDINGRECT>
+						<TITLE>GroupBox - Age</TITLE>
+						<NAMEKEY>IDENT</NAMEKEY>
+						<CONTROLTYPE>GroupBox</CONTROLTYPE>
+						<PREFIX />
+						<TEXT>Age</TEXT>
+						<TEXTKEY>TITRE</TEXTKEY>
+						<PARAMNAME>Age</PARAMNAME>
+						<PARENTTREE>5442662|11733754|65552</PARENTTREE>
+						<ISVISIBLE>True</ISVISIBLE>
+					</CTX_PROPS>
+				</ITEM>
+				<ITEM>
+					<PROPERTIES>
+						<IDENT>1008</IDENT>
+						<TITRE>18-24 years</TITRE>
+						<CLASS>Button</CLASS>
+						<STYLE>WS_CHILD WS_VISIBLE</STYLE>
+						<ROW>R15</ROW>
+						<VRANGE>pas implémenté pour l'instant</VRANGE>
+						<NBPARENT>2</NBPARENT>
+						<NBCHILD>44</NBCHILD>
+						<X>474</X>
+						<XMax>474</XMax>
+						<XMin>474</XMin>
+						<Y>60</Y>
+						<YMax>60</YMax>
+						<YMin>60</YMin>
+						<CX>105</CX>
+						<CXMax>105</CXMax>
+						<CXMin>105</CXMin>
+						<CY>16</CY>
+						<CYMax>16</CYMax>
+						<CYMin>16</CYMin>
+						<RX>-137</RX>
+						<BY>-307</BY>
+					</PROPERTIES>
+					<CTX_PROPS>
+						<BOUNDINGRECT>474|60|105|16</BOUNDINGRECT>
+						<TITLE>RadioButton - 18-24 years</TITLE>
+						<NAMEKEY>IDENT</NAMEKEY>
+						<CONTROLTYPE>RadioButton</CONTROLTYPE>
+						<PREFIX />
+						<TEXT>18-24 years</TEXT>
+						<TEXTKEY>TITRE</TEXTKEY>
+						<PARAMNAME>18-24 years</PARAMNAME>
+						<PARENTTREE>15601178|11733754|65552</PARENTTREE>
+						<ISVISIBLE>True</ISVISIBLE>
+					</CTX_PROPS>
+				</ITEM>
+				<ITEM>
+					<PROPERTIES>
+						<IDENT>1009</IDENT>
+						<TITRE>25-34 years</TITRE>
+						<CLASS>Button</CLASS>
+						<STYLE>WS_CHILD WS_VISIBLE</STYLE>
+						<ROW>R16</ROW>
+						<VRANGE>pas implémenté pour l'instant</VRANGE>
+						<NBPARENT>2</NBPARENT>
+						<NBCHILD>44</NBCHILD>
+						<X>474</X>
+						<XMax>474</XMax>
+						<XMin>474</XMin>
+						<Y>80</Y>
+						<YMax>80</YMax>
+						<YMin>80</YMin>
+						<CX>105</CX>
+						<CXMax>105</CXMax>
+						<CXMin>105</CXMin>
+						<CY>16</CY>
+						<CYMax>16</CYMax>
+						<CYMin>16</CYMin>
+						<RX>-137</RX>
+						<BY>-287</BY>
+					</PROPERTIES>
+					<CTX_PROPS>
+						<BOUNDINGRECT>474|80|105|16</BOUNDINGRECT>
+						<TITLE>RadioButton - 25-34 years</TITLE>
+						<NAMEKEY>IDENT</NAMEKEY>
+						<CONTROLTYPE>RadioButton</CONTROLTYPE>
+						<PREFIX />
+						<TEXT>25-34 years</TEXT>
+						<TEXTKEY>TITRE</TEXTKEY>
+						<PARAMNAME>25-34 years</PARAMNAME>
+						<PARENTTREE>2952590|11733754|65552</PARENTTREE>
+						<ISVISIBLE>True</ISVISIBLE>
+					</CTX_PROPS>
+					<CHILDREN>
+						<ITEM>
+							<PROPERTIES>
+								<Ident>41025</Ident>
+							</PROPERTIES>
+							<CTX_PROPS>
+								<BOUNDINGRECT>-378|-181|0|0</BOUNDINGRECT>
+								<TITLE>Menu - &amp;Couper	Ctrl+X</TITLE>
+								<NAMEKEY>Ident</NAMEKEY>
+								<CONTROLTYPE>Menu</CONTROLTYPE>
+								<PREFIX>mn</PREFIX>
+								<TEXT>&amp;Couper	Ctrl+X</TEXT>
+								<TEXTKEY />
+								<PARAMNAME>&amp;Couper	Ctrl+X</PARAMNAME>
+								<PARENTTREE />
+								<ISVISIBLE>False</ISVISIBLE>
+							</CTX_PROPS>
+						</ITEM>
+						<ITEM>
+							<PROPERTIES>
+								<Ident>41026</Ident>
+							</PROPERTIES>
+							<CTX_PROPS>
+								<BOUNDINGRECT>-378|-181|0|0</BOUNDINGRECT>
+								<TITLE>Menu - C&amp;opier	Ctrl+C</TITLE>
+								<NAMEKEY>Ident</NAMEKEY>
+								<CONTROLTYPE>Menu</CONTROLTYPE>
+								<PREFIX>mn</PREFIX>
+								<TEXT>C&amp;opier	Ctrl+C</TEXT>
+								<TEXTKEY />
+								<PARAMNAME>C&amp;opier	Ctrl+C</PARAMNAME>
+								<PARENTTREE />
+								<ISVISIBLE>False</ISVISIBLE>
+							</CTX_PROPS>
+						</ITEM>
+					</CHILDREN>
+				</ITEM>
+				<ITEM>
+					<PROPERTIES>
+						<IDENT>1010</IDENT>
+						<TITRE>35-50 years</TITRE>
+						<CLASS>Button</CLASS>
+						<STYLE>WS_CHILD WS_VISIBLE</STYLE>
+						<ROW>R17</ROW>
+						<VRANGE>pas implémenté pour l'instant</VRANGE>
+						<NBPARENT>2</NBPARENT>
+						<NBCHILD>44</NBCHILD>
+						<X>474</X>
+						<XMax>474</XMax>
+						<XMin>474</XMin>
+						<Y>99</Y>
+						<YMax>99</YMax>
+						<YMin>99</YMin>
+						<CX>105</CX>
+						<CXMax>105</CXMax>
+						<CXMin>105</CXMin>
+						<CY>16</CY>
+						<CYMax>16</CYMax>
+						<CYMin>16</CYMin>
+						<RX>-137</RX>
+						<BY>-268</BY>
+					</PROPERTIES>
+					<CTX_PROPS>
+						<BOUNDINGRECT>474|99|105|16</BOUNDINGRECT>
+						<TITLE>RadioButton - 35-50 years</TITLE>
+						<NAMEKEY>IDENT</NAMEKEY>
+						<CONTROLTYPE>RadioButton</CONTROLTYPE>
+						<PREFIX />
+						<TEXT>35-50 years</TEXT>
+						<TEXTKEY>TITRE</TEXTKEY>
+						<PARAMNAME>35-50 years</PARAMNAME>
+						<PARENTTREE>6818844|11733754|65552</PARENTTREE>
+						<ISVISIBLE>True</ISVISIBLE>
+					</CTX_PROPS>
+				</ITEM>
+				<ITEM>
+					<PROPERTIES>
+						<IDENT>1011</IDENT>
+						<TITRE>&gt; 50 years</TITRE>
+						<CLASS>Button</CLASS>
+						<STYLE>WS_CHILD WS_VISIBLE</STYLE>
+						<ROW>R18</ROW>
+						<VRANGE>pas implémenté pour l'instant</VRANGE>
+						<NBPARENT>2</NBPARENT>
+						<NBCHILD>44</NBCHILD>
+						<X>474</X>
+						<XMax>474</XMax>
+						<XMin>474</XMin>
+						<Y>119</Y>
+						<YMax>119</YMax>
+						<YMin>119</YMin>
+						<CX>105</CX>
+						<CXMax>105</CXMax>
+						<CXMin>105</CXMin>
+						<CY>16</CY>
+						<CYMax>16</CYMax>
+						<CYMin>16</CYMin>
+						<RX>-137</RX>
+						<BY>-248</BY>
+					</PROPERTIES>
+					<CTX_PROPS>
+						<BOUNDINGRECT>474|119|105|16</BOUNDINGRECT>
+						<TITLE>RadioButton - &gt; 50 years</TITLE>
+						<NAMEKEY>IDENT</NAMEKEY>
+						<CONTROLTYPE>RadioButton</CONTROLTYPE>
+						<PREFIX />
+						<TEXT>&gt; 50 years</TEXT>
+						<TEXTKEY>TITRE</TEXTKEY>
+						<PARAMNAME>&gt; 50 years</PARAMNAME>
+						<PARENTTREE>40569026|11733754|65552</PARENTTREE>
+						<ISVISIBLE>True</ISVISIBLE>
+					</CTX_PROPS>
+				</ITEM>
+				<ITEM>
+					<PROPERTIES>
+						<IDENT>-1</IDENT>
+						<TITRE>Equipements</TITRE>
+						<CLASS>Button</CLASS>
+						<STYLE>WS_CHILD WS_VISIBLE</STYLE>
+						<ROW>R19</ROW>
+						<VRANGE>pas implémenté pour l'instant</VRANGE>
+						<NBPARENT>2</NBPARENT>
+						<NBCHILD>44</NBCHILD>
+						<X>321</X>
+						<XMax>321</XMax>
+						<XMin>321</XMin>
+						<Y>41</Y>
+						<YMax>41</YMax>
+						<YMin>41</YMin>
+						<CX>134</CX>
+						<CXMax>134</CXMax>
+						<CXMin>134</CXMin>
+						<CY>148</CY>
+						<CYMax>148</CYMax>
+						<CYMin>148</CYMin>
+						<RX>-290</RX>
+						<BY>-326</BY>
+					</PROPERTIES>
+					<CTX_PROPS>
+						<BOUNDINGRECT>321|41|134|148</BOUNDINGRECT>
+						<TITLE>GroupBox - Equipements</TITLE>
+						<NAMEKEY>IDENT</NAMEKEY>
+						<CONTROLTYPE>GroupBox</CONTROLTYPE>
+						<PREFIX />
+						<TEXT>Equipements</TEXT>
+						<TEXTKEY>TITRE</TEXTKEY>
+						<PARAMNAME>Equipements</PARAMNAME>
+						<PARENTTREE>9900334|11733754|65552</PARENTTREE>
+						<ISVISIBLE>True</ISVISIBLE>
+					</CTX_PROPS>
+				</ITEM>
+				<ITEM>
+					<PROPERTIES>
+						<IDENT>1012</IDENT>
+						<TITRE>Flat screen</TITRE>
+						<CLASS>Button</CLASS>
+						<STYLE>WS_CHILD WS_TABSTOP WS_VISIBLE</STYLE>
+						<ROW>R20</ROW>
+						<VRANGE>pas implémenté pour l'instant</VRANGE>
+						<NBPARENT>2</NBPARENT>
+						<NBCHILD>44</NBCHILD>
+						<X>330</X>
+						<XMax>330</XMax>
+						<XMin>330</XMin>
+						<Y>67</Y>
+						<YMax>67</YMax>
+						<YMin>67</YMin>
+						<CX>113</CX>
+						<CXMax>113</CXMax>
+						<CXMin>113</CXMin>
+						<CY>16</CY>
+						<CYMax>16</CYMax>
+						<CYMin>16</CYMin>
+						<RX>-281</RX>
+						<BY>-300</BY>
+					</PROPERTIES>
+					<CTX_PROPS>
+						<BOUNDINGRECT>330|67|113|16</BOUNDINGRECT>
+						<TITLE>CheckBox - Flat screen</TITLE>
+						<NAMEKEY>IDENT</NAMEKEY>
+						<CONTROLTYPE>CheckBox</CONTROLTYPE>
+						<PREFIX />
+						<TEXT>Flat screen</TEXT>
+						<TEXTKEY>TITRE</TEXTKEY>
+						<PARAMNAME>Flat screen</PARAMNAME>
+						<PARENTTREE>7212002|11733754|65552</PARENTTREE>
+						<ISVISIBLE>True</ISVISIBLE>
+					</CTX_PROPS>
+				</ITEM>
+				<ITEM>
+					<PROPERTIES>
+						<IDENT>1013</IDENT>
+						<TITRE>Game console</TITRE>
+						<CLASS>Button</CLASS>
+						<STYLE>WS_CHILD WS_TABSTOP WS_VISIBLE</STYLE>
+						<ROW>R21</ROW>
+						<VRANGE>pas implémenté pour l'instant</VRANGE>
+						<NBPARENT>2</NBPARENT>
+						<NBCHILD>44</NBCHILD>
+						<X>330</X>
+						<XMax>330</XMax>
+						<XMin>330</XMin>
+						<Y>86</Y>
+						<YMax>86</YMax>
+						<YMin>86</YMin>
+						<CX>113</CX>
+						<CXMax>113</CXMax>
+						<CXMin>113</CXMin>
+						<CY>16</CY>
+						<CYMax>16</CYMax>
+						<CYMin>16</CYMin>
+						<RX>-281</RX>
+						<BY>-281</BY>
+					</PROPERTIES>
+					<CTX_PROPS>
+						<BOUNDINGRECT>330|86|113|16</BOUNDINGRECT>
+						<TITLE>CheckBox - Game console</TITLE>
+						<NAMEKEY>IDENT</NAMEKEY>
+						<CONTROLTYPE>CheckBox</CONTROLTYPE>
+						<PREFIX />
+						<TEXT>Game console</TEXT>
+						<TEXTKEY>TITRE</TEXTKEY>
+						<PARAMNAME>Game console</PARAMNAME>
+						<PARENTTREE>3345186|11733754|65552</PARENTTREE>
+						<ISVISIBLE>True</ISVISIBLE>
+					</CTX_PROPS>
+				</ITEM>
+				<ITEM>
+					<PROPERTIES>
+						<IDENT>1014</IDENT>
+						<TITRE>NAS</TITRE>
+						<CLASS>Button</CLASS>
+						<STYLE>WS_CHILD WS_TABSTOP WS_VISIBLE</STYLE>
+						<ROW>R22</ROW>
+						<VRANGE>pas implémenté pour l'instant</VRANGE>
+						<NBPARENT>2</NBPARENT>
+						<NBCHILD>44</NBCHILD>
+						<X>330</X>
+						<XMax>330</XMax>
+						<XMin>330</XMin>
+						<Y>106</Y>
+						<YMax>106</YMax>
+						<YMin>106</YMin>
+						<CX>113</CX>
+						<CXMax>113</CXMax>
+						<CXMin>113</CXMin>
+						<CY>16</CY>
+						<CYMax>16</CYMax>
+						<CYMin>16</CYMin>
+						<RX>-281</RX>
+						<BY>-261</BY>
+					</PROPERTIES>
+					<CTX_PROPS>
+						<BOUNDINGRECT>330|106|113|16</BOUNDINGRECT>
+						<TITLE>CheckBox - NAS</TITLE>
+						<NAMEKEY>IDENT</NAMEKEY>
+						<CONTROLTYPE>CheckBox</CONTROLTYPE>
+						<PREFIX />
+						<TEXT>NAS</TEXT>
+						<TEXTKEY>TITRE</TEXTKEY>
+						<PARAMNAME>NAS</PARAMNAME>
+						<PARENTTREE>9900154|11733754|65552</PARENTTREE>
+						<ISVISIBLE>True</ISVISIBLE>
+					</CTX_PROPS>
+				</ITEM>
+				<ITEM>
+					<PROPERTIES>
+						<IDENT>1015</IDENT>
+						<TITRE>Internet box</TITRE>
+						<CLASS>Button</CLASS>
+						<STYLE>WS_CHILD WS_TABSTOP WS_VISIBLE</STYLE>
+						<ROW>R23</ROW>
+						<VRANGE>pas implémenté pour l'instant</VRANGE>
+						<NBPARENT>2</NBPARENT>
+						<NBCHILD>44</NBCHILD>
+						<X>330</X>
+						<XMax>330</XMax>
+						<XMin>330</XMin>
+						<Y>125</Y>
+						<YMax>125</YMax>
+						<YMin>125</YMin>
+						<CX>113</CX>
+						<CXMax>113</CXMax>
+						<CXMin>113</CXMin>
+						<CY>16</CY>
+						<CYMax>16</CYMax>
+						<CYMin>16</CYMin>
+						<RX>-281</RX>
+						<BY>-242</BY>
+					</PROPERTIES>
+					<CTX_PROPS>
+						<BOUNDINGRECT>330|125|113|16</BOUNDINGRECT>
+						<TITLE>CheckBox - Internet box</TITLE>
+						<NAMEKEY>IDENT</NAMEKEY>
+						<CONTROLTYPE>CheckBox</CONTROLTYPE>
+						<PREFIX />
+						<TEXT>Internet box</TEXT>
+						<TEXTKEY>TITRE</TEXTKEY>
+						<PARAMNAME>Internet box</PARAMNAME>
+						<PARENTTREE>26345660|11733754|65552</PARENTTREE>
+						<ISVISIBLE>True</ISVISIBLE>
+					</CTX_PROPS>
+				</ITEM>
+				<ITEM>
+					<PROPERTIES>
+						<IDENT>1016</IDENT>
+						<TITRE>Sound bar</TITRE>
+						<CLASS>Button</CLASS>
+						<STYLE>WS_CHILD WS_TABSTOP WS_VISIBLE</STYLE>
+						<ROW>R24</ROW>
+						<VRANGE>pas implémenté pour l'instant</VRANGE>
+						<NBPARENT>2</NBPARENT>
+						<NBCHILD>44</NBCHILD>
+						<X>330</X>
+						<XMax>330</XMax>
+						<XMin>330</XMin>
+						<Y>145</Y>
+						<YMax>145</YMax>
+						<YMin>145</YMin>
+						<CX>113</CX>
+						<CXMax>113</CXMax>
+						<CXMin>113</CXMin>
+						<CY>16</CY>
+						<CYMax>16</CYMax>
+						<CYMin>16</CYMin>
+						<RX>-281</RX>
+						<BY>-222</BY>
+					</PROPERTIES>
+					<CTX_PROPS>
+						<BOUNDINGRECT>330|145|113|16</BOUNDINGRECT>
+						<TITLE>CheckBox - Sound bar</TITLE>
+						<NAMEKEY>IDENT</NAMEKEY>
+						<CONTROLTYPE>CheckBox</CONTROLTYPE>
+						<PREFIX />
+						<TEXT>Sound bar</TEXT>
+						<TEXTKEY>TITRE</TEXTKEY>
+						<PARAMNAME>Sound bar</PARAMNAME>
+						<PARENTTREE>2955282|11733754|65552</PARENTTREE>
+						<ISVISIBLE>True</ISVISIBLE>
+					</CTX_PROPS>
+				</ITEM>
+				<ITEM>
+					<PROPERTIES>
+						<IDENT>1017</IDENT>
+						<TITRE>Home Theater</TITRE>
+						<CLASS>Button</CLASS>
+						<STYLE>WS_CHILD WS_TABSTOP WS_VISIBLE</STYLE>
+						<ROW>R25</ROW>
+						<VRANGE>pas implémenté pour l'instant</VRANGE>
+						<NBPARENT>2</NBPARENT>
+						<NBCHILD>44</NBCHILD>
+						<X>330</X>
+						<XMax>330</XMax>
+						<XMin>330</XMin>
+						<Y>164</Y>
+						<YMax>164</YMax>
+						<YMin>164</YMin>
+						<CX>113</CX>
+						<CXMax>113</CXMax>
+						<CXMin>113</CXMin>
+						<CY>16</CY>
+						<CYMax>16</CYMax>
+						<CYMin>16</CYMin>
+						<RX>-281</RX>
+						<BY>-203</BY>
+					</PROPERTIES>
+					<CTX_PROPS>
+						<BOUNDINGRECT>330|164|113|16</BOUNDINGRECT>
+						<TITLE>CheckBox - Home Theater</TITLE>
+						<NAMEKEY>IDENT</NAMEKEY>
+						<CONTROLTYPE>CheckBox</CONTROLTYPE>
+						<PREFIX />
+						<TEXT>Home Theater</TEXT>
+						<TEXTKEY>TITRE</TEXTKEY>
+						<PARAMNAME>Home Theater</PARAMNAME>
+						<PARENTTREE>2101410|11733754|65552</PARENTTREE>
+						<ISVISIBLE>True</ISVISIBLE>
+					</CTX_PROPS>
+				</ITEM>
+				<ITEM>
+					<PROPERTIES>
+						<IDENT>1007</IDENT>
+						<CLASS>Edit</CLASS>
+						<STYLE>WS_CHILD DS_MODALFRAME WS_TABSTOP WS_VISIBLE</STYLE>
+						<ROW>R26</ROW>
+						<VRANGE>pas implémenté pour l'instant</VRANGE>
+						<NBPARENT>2</NBPARENT>
+						<NBCHILD>44</NBCHILD>
+						<X>98</X>
+						<XMax>98</XMax>
+						<XMin>98</XMin>
+						<Y>241</Y>
+						<YMax>241</YMax>
+						<YMin>241</YMin>
+						<CX>176</CX>
+						<CXMax>176</CXMax>
+						<CXMin>176</CXMin>
+						<CY>21</CY>
+						<CYMax>21</CYMax>
+						<CYMin>21</CYMin>
+						<RX>-513</RX>
+						<BY>-126</BY>
+					</PROPERTIES>
+					<CTX_PROPS>
+						<BOUNDINGRECT>98|241|176|21</BOUNDINGRECT>
+						<TITLE>Edit</TITLE>
+						<NAMEKEY>IDENT</NAMEKEY>
+						<CONTROLTYPE>Edit</CONTROLTYPE>
+						<PREFIX>ed</PREFIX>
+						<TEXT />
+						<TEXTKEY>TITRE</TEXTKEY>
+						<PARAMNAME>Edit</PARAMNAME>
+						<PARENTTREE>1509588|11733754|65552</PARENTTREE>
+						<ISVISIBLE>True</ISVISIBLE>
+					</CTX_PROPS>
+				</ITEM>
+				<ITEM>
+					<PROPERTIES>
+						<IDENT>-1</IDENT>
+						<TITRE>Contact profile</TITRE>
+						<CLASS>Button</CLASS>
+						<STYLE>WS_CHILD WS_VISIBLE</STYLE>
+						<ROW>R27</ROW>
+						<VRANGE>pas implémenté pour l'instant</VRANGE>
+						<NBPARENT>2</NBPARENT>
+						<NBCHILD>44</NBCHILD>
+						<X>14</X>
+						<XMax>14</XMax>
+						<XMin>14</XMin>
+						<Y>37</Y>
+						<YMax>37</YMax>
+						<YMin>37</YMin>
+						<CX>299</CX>
+						<CXMax>299</CXMax>
+						<CXMin>299</CXMin>
+						<CY>286</CY>
+						<CYMax>286</CYMax>
+						<CYMin>286</CYMin>
+						<RX>-597</RX>
+						<BY>-330</BY>
+					</PROPERTIES>
+					<CTX_PROPS>
+						<BOUNDINGRECT>14|37|299|286</BOUNDINGRECT>
+						<TITLE>GroupBox - Contact profile</TITLE>
+						<NAMEKEY>IDENT</NAMEKEY>
+						<CONTROLTYPE>GroupBox</CONTROLTYPE>
+						<PREFIX />
+						<TEXT>Contact profile</TEXT>
+						<TEXTKEY>TITRE</TEXTKEY>
+						<PARAMNAME>Contact profile</PARAMNAME>
+						<PARENTTREE>4394700|11733754|65552</PARENTTREE>
+						<ISVISIBLE>True</ISVISIBLE>
+					</CTX_PROPS>
+				</ITEM>
+				<ITEM>
+					<PROPERTIES>
+						<IDENT>-1</IDENT>
+						<TITRE>Field 1 :</TITRE>
+						<CLASS>Static</CLASS>
+						<STYLE>WS_CHILD WS_GROUP WS_VISIBLE</STYLE>
+						<ROW>R28</ROW>
+						<VRANGE>pas implémenté pour l'instant</VRANGE>
+						<NBPARENT>2</NBPARENT>
+						<NBCHILD>44</NBCHILD>
+						<X>30</X>
+						<XMax>30</XMax>
+						<XMin>30</XMin>
+						<Y>244</Y>
+						<YMax>244</YMax>
+						<YMin>244</YMin>
+						<CX>63</CX>
+						<CXMax>63</CXMax>
+						<CXMin>63</CXMin>
+						<CY>13</CY>
+						<CYMax>13</CYMax>
+						<CYMin>13</CYMin>
+						<RX>-581</RX>
+						<BY>-123</BY>
+					</PROPERTIES>
+					<CTX_PROPS>
+						<BOUNDINGRECT>30|244|63|13</BOUNDINGRECT>
+						<TITLE>Static - Field 1 :</TITLE>
+						<NAMEKEY>IDENT</NAMEKEY>
+						<CONTROLTYPE>Static</CONTROLTYPE>
+						<PREFIX>st</PREFIX>
+						<TEXT>Field 1 :</TEXT>
+						<TEXTKEY>TITRE</TEXTKEY>
+						<PARAMNAME>Field 1 :</PARAMNAME>
+						<PARENTTREE>4790258|11733754|65552</PARENTTREE>
+						<ISVISIBLE>True</ISVISIBLE>
+					</CTX_PROPS>
+				</ITEM>
+				<ITEM>
+					<PROPERTIES>
+						<IDENT>-1</IDENT>
+						<TITRE>Field 2 :</TITRE>
+						<CLASS>Static</CLASS>
+						<STYLE>WS_CHILD WS_GROUP WS_VISIBLE</STYLE>
+						<ROW>R29</ROW>
+						<VRANGE>pas implémenté pour l'instant</VRANGE>
+						<NBPARENT>2</NBPARENT>
+						<NBCHILD>44</NBCHILD>
+						<X>30</X>
+						<XMax>30</XMax>
+						<XMin>30</XMin>
+						<Y>270</Y>
+						<YMax>270</YMax>
+						<YMin>270</YMin>
+						<CX>63</CX>
+						<CXMax>63</CXMax>
+						<CXMin>63</CXMin>
+						<CY>13</CY>
+						<CYMax>13</CYMax>
+						<CYMin>13</CYMin>
+						<RX>-581</RX>
+						<BY>-97</BY>
+					</PROPERTIES>
+					<CTX_PROPS>
+						<BOUNDINGRECT>30|270|63|13</BOUNDINGRECT>
+						<TITLE>Static - Field 2 :</TITLE>
+						<NAMEKEY>IDENT</NAMEKEY>
+						<CONTROLTYPE>Static</CONTROLTYPE>
+						<PREFIX>st</PREFIX>
+						<TEXT>Field 2 :</TEXT>
+						<TEXTKEY>TITRE</TEXTKEY>
+						<PARAMNAME>Field 2 :</PARAMNAME>
+						<PARENTTREE>9964962|11733754|65552</PARENTTREE>
+						<ISVISIBLE>True</ISVISIBLE>
+					</CTX_PROPS>
+				</ITEM>
+				<ITEM>
+					<PROPERTIES>
+						<IDENT>1018</IDENT>
+						<CLASS>Edit</CLASS>
+						<STYLE>WS_CHILD DS_MODALFRAME WS_TABSTOP WS_VISIBLE</STYLE>
+						<ROW>R30</ROW>
+						<VRANGE>pas implémenté pour l'instant</VRANGE>
+						<NBPARENT>2</NBPARENT>
+						<NBCHILD>44</NBCHILD>
+						<X>98</X>
+						<XMax>98</XMax>
+						<XMin>98</XMin>
+						<Y>267</Y>
+						<YMax>267</YMax>
+						<YMin>267</YMin>
+						<CX>174</CX>
+						<CXMax>174</CXMax>
+						<CXMin>174</CXMin>
+						<CY>21</CY>
+						<CYMax>21</CYMax>
+						<CYMin>21</CYMin>
+						<RX>-513</RX>
+						<BY>-100</BY>
+					</PROPERTIES>
+					<CTX_PROPS>
+						<BOUNDINGRECT>98|267|174|21</BOUNDINGRECT>
+						<TITLE>Edit</TITLE>
+						<NAMEKEY>IDENT</NAMEKEY>
+						<CONTROLTYPE>Edit</CONTROLTYPE>
+						<PREFIX>ed</PREFIX>
+						<TEXT />
+						<TEXTKEY>TITRE</TEXTKEY>
+						<PARAMNAME>Edit</PARAMNAME>
+						<PARENTTREE>7410070|11733754|65552</PARENTTREE>
+						<ISVISIBLE>True</ISVISIBLE>
+					</CTX_PROPS>
+				</ITEM>
+				<ITEM>
+					<PROPERTIES>
+						<IDENT>-1</IDENT>
+						<TITRE>Field 3 :</TITRE>
+						<CLASS>Static</CLASS>
+						<STYLE>WS_CHILD WS_GROUP WS_VISIBLE</STYLE>
+						<ROW>R31</ROW>
+						<VRANGE>pas implémenté pour l'instant</VRANGE>
+						<NBPARENT>2</NBPARENT>
+						<NBCHILD>44</NBCHILD>
+						<X>30</X>
+						<XMax>30</XMax>
+						<XMin>30</XMin>
+						<Y>296</Y>
+						<YMax>296</YMax>
+						<YMin>296</YMin>
+						<CX>63</CX>
+						<CXMax>63</CXMax>
+						<CXMin>63</CXMin>
+						<CY>13</CY>
+						<CYMax>13</CYMax>
+						<CYMin>13</CYMin>
+						<RX>-581</RX>
+						<BY>-71</BY>
+					</PROPERTIES>
+					<CTX_PROPS>
+						<BOUNDINGRECT>30|296|63|13</BOUNDINGRECT>
+						<TITLE>Static - Field 3 :</TITLE>
+						<NAMEKEY>IDENT</NAMEKEY>
+						<CONTROLTYPE>Static</CONTROLTYPE>
+						<PREFIX>st</PREFIX>
+						<TEXT>Field 3 :</TEXT>
+						<TEXTKEY>TITRE</TEXTKEY>
+						<PARAMNAME>Field 3 :</PARAMNAME>
+						<PARENTTREE>2623972|11733754|65552</PARENTTREE>
+						<ISVISIBLE>True</ISVISIBLE>
+					</CTX_PROPS>
+				</ITEM>
+				<ITEM>
+					<PROPERTIES>
+						<IDENT>1019</IDENT>
+						<CLASS>Edit</CLASS>
+						<STYLE>WS_CHILD DS_MODALFRAME WS_TABSTOP WS_VISIBLE</STYLE>
+						<ROW>R32</ROW>
+						<VRANGE>pas implémenté pour l'instant</VRANGE>
+						<NBPARENT>2</NBPARENT>
+						<NBCHILD>44</NBCHILD>
+						<X>98</X>
+						<XMax>98</XMax>
+						<XMin>98</XMin>
+						<Y>293</Y>
+						<YMax>293</YMax>
+						<YMin>293</YMin>
+						<CX>174</CX>
+						<CXMax>174</CXMax>
+						<CXMin>174</CXMin>
+						<CY>21</CY>
+						<CYMax>21</CYMax>
+						<CYMin>21</CYMin>
+						<RX>-513</RX>
+						<BY>-74</BY>
+					</PROPERTIES>
+					<CTX_PROPS>
+						<BOUNDINGRECT>98|293|174|21</BOUNDINGRECT>
+						<TITLE>Edit</TITLE>
+						<NAMEKEY>IDENT</NAMEKEY>
+						<CONTROLTYPE>Edit</CONTROLTYPE>
+						<PREFIX>ed</PREFIX>
+						<TEXT />
+						<TEXTKEY>TITRE</TEXTKEY>
+						<PARAMNAME>Edit</PARAMNAME>
+						<PARENTTREE>9505924|11733754|65552</PARENTTREE>
+						<ISVISIBLE>True</ISVISIBLE>
+					</CTX_PROPS>
+				</ITEM>
+				<ITEM>
+					<PROPERTIES>
+						<IDENT>1020</IDENT>
+						<CLASS>Edit</CLASS>
+						<STYLE>WS_CHILD DS_MODALFRAME WS_TABSTOP WS_VISIBLE</STYLE>
+						<ROW>R33</ROW>
+						<VRANGE>pas implémenté pour l'instant</VRANGE>
+						<NBPARENT>2</NBPARENT>
+						<NBCHILD>44</NBCHILD>
+						<X>23</X>
+						<XMax>23</XMax>
+						<XMin>23</XMin>
+						<Y>328</Y>
+						<YMax>328</YMax>
+						<YMin>328</YMin>
+						<CX>35</CX>
+						<CXMax>35</CXMax>
+						<CXMin>35</CXMin>
+						<CY>23</CY>
+						<CYMax>23</CYMax>
+						<CYMin>23</CYMin>
+						<RX>-588</RX>
+						<BY>-39</BY>
+					</PROPERTIES>
+					<CTX_PROPS>
+						<BOUNDINGRECT>23|328|35|23</BOUNDINGRECT>
+						<TITLE>Edit</TITLE>
+						<NAMEKEY>IDENT</NAMEKEY>
+						<CONTROLTYPE>Edit</CONTROLTYPE>
+						<PREFIX>ed</PREFIX>
+						<TEXT />
+						<TEXTKEY>TITRE</TEXTKEY>
+						<PARAMNAME>Edit</PARAMNAME>
+						<PARENTTREE>5639740|11733754|65552</PARENTTREE>
+						<ISVISIBLE>True</ISVISIBLE>
+					</CTX_PROPS>
+				</ITEM>
+				<ITEM>
+					<PROPERTIES>
+						<IDENT>1021</IDENT>
+						<TITRE>Fill</TITRE>
+						<CLASS>Button</CLASS>
+						<STYLE>WS_CHILD WS_TABSTOP WS_VISIBLE</STYLE>
+						<ROW>R34</ROW>
+						<VRANGE>pas implémenté pour l'instant</VRANGE>
+						<NBPARENT>2</NBPARENT>
+						<NBCHILD>44</NBCHILD>
+						<X>63</X>
+						<XMax>63</XMax>
+						<XMin>63</XMin>
+						<Y>328</Y>
+						<YMax>328</YMax>
+						<YMin>328</YMin>
+						<CX>56</CX>
+						<CXMax>56</CXMax>
+						<CXMin>56</CXMin>
+						<CY>23</CY>
+						<CYMax>23</CYMax>
+						<CYMin>23</CYMin>
+						<RX>-548</RX>
+						<BY>-39</BY>
+					</PROPERTIES>
+					<CTX_PROPS>
+						<BOUNDINGRECT>63|328|56|23</BOUNDINGRECT>
+						<TITLE>Button - Fill</TITLE>
+						<NAMEKEY>IDENT</NAMEKEY>
+						<CONTROLTYPE>Button</CONTROLTYPE>
+						<PREFIX>bt</PREFIX>
+						<TEXT>Fill</TEXT>
+						<TEXTKEY>TITRE</TEXTKEY>
+						<PARAMNAME>Fill</PARAMNAME>
+						<PARENTTREE>13897540|11733754|65552</PARENTTREE>
+						<ISVISIBLE>True</ISVISIBLE>
+					</CTX_PROPS>
+				</ITEM>
+				<ITEM>
+					<PROPERTIES>
+						<IDENT>1022</IDENT>
+						<CLASS>msctls_progress32</CLASS>
+						<STYLE>WS_CHILD WS_VISIBLE</STYLE>
+						<ROW>R35</ROW>
+						<VRANGE>pas implémenté pour l'instant</VRANGE>
+						<NBPARENT>2</NBPARENT>
+						<NBCHILD>44</NBCHILD>
+						<X>126</X>
+						<XMax>126</XMax>
+						<XMin>126</XMin>
+						<Y>328</Y>
+						<YMax>328</YMax>
+						<YMin>328</YMin>
+						<CX>185</CX>
+						<CXMax>185</CXMax>
+						<CXMin>185</CXMin>
+						<CY>23</CY>
+						<CYMax>23</CYMax>
+						<CYMin>23</CYMin>
+						<RX>-485</RX>
+						<BY>-39</BY>
+					</PROPERTIES>
+					<CTX_PROPS>
+						<BOUNDINGRECT>126|328|185|23</BOUNDINGRECT>
+						<TITLE>msctls_progress32</TITLE>
+						<NAMEKEY>IDENT</NAMEKEY>
+						<CONTROLTYPE>msctls_progress32</CONTROLTYPE>
+						<PREFIX />
+						<TEXT />
+						<TEXTKEY>TITRE</TEXTKEY>
+						<PARAMNAME>msctls_progress32</PARAMNAME>
+						<PARENTTREE>4198624|11733754|65552</PARENTTREE>
+						<ISVISIBLE>True</ISVISIBLE>
+					</CTX_PROPS>
+				</ITEM>
+				<ITEM>
+					<PROPERTIES>
+						<IDENT>1023</IDENT>
+						<CLASS>SysTreeView32</CLASS>
+						<STYLE>WS_CHILD WS_TABSTOP WS_VISIBLE</STYLE>
+						<ROW>R36</ROW>
+						<VRANGE>pas implémenté pour l'instant</VRANGE>
+						<NBPARENT>2</NBPARENT>
+						<NBCHILD>44</NBCHILD>
+						<X>329</X>
+						<XMax>329</XMax>
+						<XMin>329</XMin>
+						<Y>216</Y>
+						<YMax>216</YMax>
+						<YMin>216</YMin>
+						<CX>258</CX>
+						<CXMax>258</CXMax>
+						<CXMin>258</CXMin>
+						<CY>125</CY>
+						<CYMax>125</CYMax>
+						<CYMin>125</CYMin>
+						<RX>-282</RX>
+						<BY>-151</BY>
+					</PROPERTIES>
+					<CTX_PROPS>
+						<BOUNDINGRECT>329|216|258|125</BOUNDINGRECT>
+						<TITLE>SysTreeView32</TITLE>
+						<NAMEKEY>IDENT</NAMEKEY>
+						<CONTROLTYPE>SysTreeView32</CONTROLTYPE>
+						<PREFIX>tv</PREFIX>
+						<TEXT />
+						<TEXTKEY>TITRE</TEXTKEY>
+						<PARAMNAME>SysTreeView32</PARAMNAME>
+						<PARENTTREE>10947950|11733754|65552</PARENTTREE>
+						<ISVISIBLE>True</ISVISIBLE>
+					</CTX_PROPS>
+				</ITEM>
+				<ITEM>
+					<PROPERTIES>
+						<IDENT>1024</IDENT>
+						<TITRE>1</TITRE>
+						<CLASS>Button</CLASS>
+						<STYLE>WS_CHILD WS_TABSTOP WS_VISIBLE</STYLE>
+						<ROW>R37</ROW>
+						<VRANGE>pas implémenté pour l'instant</VRANGE>
+						<NBPARENT>2</NBPARENT>
+						<NBCHILD>44</NBCHILD>
+						<X>276</X>
+						<XMax>276</XMax>
+						<XMin>276</XMin>
+						<Y>239</Y>
+						<YMax>239</YMax>
+						<YMin>239</YMin>
+						<CX>26</CX>
+						<CXMax>26</CXMax>
+						<CXMin>26</CXMin>
+						<CY>23</CY>
+						<CYMax>23</CYMax>
+						<CYMin>23</CYMin>
+						<RX>-335</RX>
+						<BY>-128</BY>
+					</PROPERTIES>
+					<CTX_PROPS>
+						<BOUNDINGRECT>276|239|26|23</BOUNDINGRECT>
+						<TITLE>Button - 1</TITLE>
+						<NAMEKEY>IDENT</NAMEKEY>
+						<CONTROLTYPE>Button</CONTROLTYPE>
+						<PREFIX>bt</PREFIX>
+						<TEXT>1</TEXT>
+						<TEXTKEY>TITRE</TEXTKEY>
+						<PARAMNAME>1</PARAMNAME>
+						<PARENTTREE>7803050|11733754|65552</PARENTTREE>
+						<ISVISIBLE>True</ISVISIBLE>
+					</CTX_PROPS>
+				</ITEM>
+				<ITEM>
+					<PROPERTIES>
+						<IDENT>1027</IDENT>
+						<CLASS>ComboBox</CLASS>
+						<STYLE>WS_CHILD WS_TABSTOP WS_VISIBLE</STYLE>
+						<ROW>R38</ROW>
+						<VRANGE>pas implémenté pour l'instant</VRANGE>
+						<NBPARENT>2</NBPARENT>
+						<NBCHILD>44</NBCHILD>
+						<X>98</X>
+						<XMax>98</XMax>
+						<XMin>98</XMin>
+						<Y>215</Y>
+						<YMax>215</YMax>
+						<YMin>215</YMin>
+						<CX>207</CX>
+						<CXMax>207</CXMax>
+						<CXMin>207</CXMin>
+						<CY>21</CY>
+						<CYMax>21</CYMax>
+						<CYMin>21</CYMin>
+						<RX>-513</RX>
+						<BY>-152</BY>
+					</PROPERTIES>
+					<CTX_PROPS>
+						<BOUNDINGRECT>98|215|207|21</BOUNDINGRECT>
+						<TITLE>ComboBox</TITLE>
+						<NAMEKEY>IDENT</NAMEKEY>
+						<CONTROLTYPE>ComboBox</CONTROLTYPE>
+						<PREFIX>cb</PREFIX>
+						<TEXT />
+						<TEXTKEY>TITRE</TEXTKEY>
+						<PARAMNAME>ComboBox</PARAMNAME>
+						<PARENTTREE>5638632|11733754|65552</PARENTTREE>
+						<ISVISIBLE>True</ISVISIBLE>
+					</CTX_PROPS>
+					<CHILDREN>
+						<ITEM>
+							<PROPERTIES>
+								<IDENT>1001</IDENT>
+								<CLASS>Edit</CLASS>
+								<STYLE>WS_CHILD WS_VISIBLE</STYLE>
+								<ROW>R38R1</ROW>
+								<VRANGE>pas implémenté pour l'instant</VRANGE>
+								<NBPARENT>3</NBPARENT>
+								<NBCHILD>1</NBCHILD>
+								<X>101</X>
+								<XMax>101</XMax>
+								<XMin>101</XMin>
+								<Y>218</Y>
+								<YMax>218</YMax>
+								<YMin>218</YMin>
+								<CX>184</CX>
+								<CXMax>184</CXMax>
+								<CXMin>184</CXMin>
+								<CY>15</CY>
+								<CYMax>15</CYMax>
+								<CYMin>15</CYMin>
+								<RX>-510</RX>
+								<BY>-149</BY>
+							</PROPERTIES>
+							<CTX_PROPS>
+								<BOUNDINGRECT>101|218|184|15</BOUNDINGRECT>
+								<TITLE>Edit</TITLE>
+								<NAMEKEY>IDENT</NAMEKEY>
+								<CONTROLTYPE>Edit</CONTROLTYPE>
+								<PREFIX>ed</PREFIX>
+								<TEXT />
+								<TEXTKEY>TITRE</TEXTKEY>
+								<PARAMNAME>Edit</PARAMNAME>
+								<PARENTTREE>6557004|5638632|11733754|65552</PARENTTREE>
+								<ISVISIBLE>True</ISVISIBLE>
+							</CTX_PROPS>
+						</ITEM>
+					</CHILDREN>
+				</ITEM>
+				<ITEM>
+					<PROPERTIES>
+						<IDENT>1030</IDENT>
+						<TITRE>10/10/2017</TITRE>
+						<CLASS>SysDateTimePick32</CLASS>
+						<STYLE>WS_CHILD WS_TABSTOP WS_VISIBLE</STYLE>
+						<ROW>R39</ROW>
+						<VRANGE>pas implémenté pour l'instant</VRANGE>
+						<NBPARENT>2</NBPARENT>
+						<NBCHILD>44</NBCHILD>
+						<X>473</X>
+						<XMax>473</XMax>
+						<XMin>473</XMin>
+						<Y>158</Y>
+						<YMax>158</YMax>
+						<YMin>158</YMin>
+						<CX>110</CX>
+						<CXMax>110</CXMax>
+						<CXMin>110</CXMin>
+						<CY>24</CY>
+						<CYMax>24</CYMax>
+						<CYMin>24</CYMin>
+						<RX>-138</RX>
+						<BY>-209</BY>
+					</PROPERTIES>
+					<CTX_PROPS>
+						<BOUNDINGRECT>473|158|110|24</BOUNDINGRECT>
+						<TITLE>SysDateTimePick32 - 10/10/2017</TITLE>
+						<NAMEKEY>IDENT</NAMEKEY>
+						<CONTROLTYPE>SysDateTimePick32</CONTROLTYPE>
+						<PREFIX />
+						<TEXT>10/10/2017</TEXT>
+						<TEXTKEY>TITRE</TEXTKEY>
+						<PARAMNAME>10/10/2017</PARAMNAME>
+						<PARENTTREE>120324162|11733754|65552</PARENTTREE>
+						<ISVISIBLE>True</ISVISIBLE>
+					</CTX_PROPS>
+				</ITEM>
+				<ITEM>
+					<PROPERTIES>
+						<IDENT>-1</IDENT>
+						<TITRE>Country :</TITRE>
+						<CLASS>Static</CLASS>
+						<STYLE>WS_CHILD WS_GROUP WS_VISIBLE</STYLE>
+						<ROW>R40</ROW>
+						<VRANGE>pas implémenté pour l'instant</VRANGE>
+						<NBPARENT>2</NBPARENT>
+						<NBCHILD>44</NBCHILD>
+						<X>30</X>
+						<XMax>30</XMax>
+						<XMin>30</XMin>
+						<Y>218</Y>
+						<YMax>218</YMax>
+						<YMin>218</YMin>
+						<CX>63</CX>
+						<CXMax>63</CXMax>
+						<CXMin>63</CXMin>
+						<CY>13</CY>
+						<CYMax>13</CYMax>
+						<CYMin>13</CYMin>
+						<RX>-581</RX>
+						<BY>-149</BY>
+					</PROPERTIES>
+					<CTX_PROPS>
+						<BOUNDINGRECT>30|218|63|13</BOUNDINGRECT>
+						<TITLE>Static - Country :</TITLE>
+						<NAMEKEY>IDENT</NAMEKEY>
+						<CONTROLTYPE>Static</CONTROLTYPE>
+						<PREFIX>st</PREFIX>
+						<TEXT>Country :</TEXT>
+						<TEXTKEY>TITRE</TEXTKEY>
+						<PARAMNAME>Country :</PARAMNAME>
+						<PARENTTREE>4000164|11733754|65552</PARENTTREE>
+						<ISVISIBLE>True</ISVISIBLE>
+					</CTX_PROPS>
+				</ITEM>
+				<ITEM>
+					<PROPERTIES>
+						<IDENT>-1</IDENT>
+						<TITRE>Birth date :</TITRE>
+						<CLASS>Static</CLASS>
+						<STYLE>WS_CHILD WS_GROUP WS_VISIBLE</STYLE>
+						<ROW>R41</ROW>
+						<VRANGE>pas implémenté pour l'instant</VRANGE>
+						<NBPARENT>2</NBPARENT>
+						<NBCHILD>44</NBCHILD>
+						<X>476</X>
+						<XMax>476</XMax>
+						<XMin>476</XMin>
+						<Y>141</Y>
+						<YMax>141</YMax>
+						<YMin>141</YMin>
+						<CX>56</CX>
+						<CXMax>56</CXMax>
+						<CXMin>56</CXMin>
+						<CY>13</CY>
+						<CYMax>13</CYMax>
+						<CYMin>13</CYMin>
+						<RX>-135</RX>
+						<BY>-226</BY>
+					</PROPERTIES>
+					<CTX_PROPS>
+						<BOUNDINGRECT>476|141|56|13</BOUNDINGRECT>
+						<TITLE>Static - Birth date :</TITLE>
+						<NAMEKEY>IDENT</NAMEKEY>
+						<CONTROLTYPE>Static</CONTROLTYPE>
+						<PREFIX>st</PREFIX>
+						<TEXT>Birth date :</TEXT>
+						<TEXTKEY>TITRE</TEXTKEY>
+						<PARAMNAME>Birth date :</PARAMNAME>
+						<PARENTTREE>14029230|11733754|65552</PARENTTREE>
+						<ISVISIBLE>True</ISVISIBLE>
+					</CTX_PROPS>
+				</ITEM>
+				<ITEM>
+					<PROPERTIES>
+						<IDENT>1025</IDENT>
+						<TITRE>2</TITRE>
+						<CLASS>Button</CLASS>
+						<STYLE>WS_CHILD WS_TABSTOP WS_VISIBLE</STYLE>
+						<ROW>R42</ROW>
+						<VRANGE>pas implémenté pour l'instant</VRANGE>
+						<NBPARENT>2</NBPARENT>
+						<NBCHILD>44</NBCHILD>
+						<X>276</X>
+						<XMax>276</XMax>
+						<XMin>276</XMin>
+						<Y>265</Y>
+						<YMax>265</YMax>
+						<YMin>265</YMin>
+						<CX>26</CX>
+						<CXMax>26</CXMax>
+						<CXMin>26</CXMin>
+						<CY>23</CY>
+						<CYMax>23</CYMax>
+						<CYMin>23</CYMin>
+						<RX>-335</RX>
+						<BY>-102</BY>
+					</PROPERTIES>
+					<CTX_PROPS>
+						<BOUNDINGRECT>276|265|26|23</BOUNDINGRECT>
+						<TITLE>Button - 2</TITLE>
+						<NAMEKEY>IDENT</NAMEKEY>
+						<CONTROLTYPE>Button</CONTROLTYPE>
+						<PREFIX>bt</PREFIX>
+						<TEXT>2</TEXT>
+						<TEXTKEY>TITRE</TEXTKEY>
+						<PARAMNAME>2</PARAMNAME>
+						<PARENTTREE>23466656|11733754|65552</PARENTTREE>
+						<ISVISIBLE>True</ISVISIBLE>
+					</CTX_PROPS>
+				</ITEM>
+				<ITEM>
+					<PROPERTIES>
+						<IDENT>1026</IDENT>
+						<TITRE>3</TITRE>
+						<CLASS>Button</CLASS>
+						<STYLE>WS_CHILD WS_TABSTOP WS_VISIBLE</STYLE>
+						<ROW>R43</ROW>
+						<VRANGE>pas implémenté pour l'instant</VRANGE>
+						<NBPARENT>2</NBPARENT>
+						<NBCHILD>44</NBCHILD>
+						<X>276</X>
+						<XMax>276</XMax>
+						<XMin>276</XMin>
+						<Y>291</Y>
+						<YMax>291</YMax>
+						<YMin>291</YMin>
+						<CX>26</CX>
+						<CXMax>26</CXMax>
+						<CXMin>26</CXMin>
+						<CY>23</CY>
+						<CYMax>23</CYMax>
+						<CYMin>23</CYMin>
+						<RX>-335</RX>
+						<BY>-76</BY>
+					</PROPERTIES>
+					<CTX_PROPS>
+						<BOUNDINGRECT>276|291|26|23</BOUNDINGRECT>
+						<TITLE>Button - 3</TITLE>
+						<NAMEKEY>IDENT</NAMEKEY>
+						<CONTROLTYPE>Button</CONTROLTYPE>
+						<PREFIX>bt</PREFIX>
+						<TEXT>3</TEXT>
+						<TEXTKEY>TITRE</TEXTKEY>
+						<PARAMNAME>3</PARAMNAME>
+						<PARENTTREE>4526490|11733754|65552</PARENTTREE>
+						<ISVISIBLE>True</ISVISIBLE>
+					</CTX_PROPS>
+				</ITEM>
+				<ITEM>
+					<PROPERTIES>
+						<IDENT>-1</IDENT>
+						<TITRE>Industry</TITRE>
+						<CLASS>Button</CLASS>
+						<STYLE>WS_CHILD WS_VISIBLE</STYLE>
+						<ROW>R44</ROW>
+						<VRANGE>pas implémenté pour l'instant</VRANGE>
+						<NBPARENT>2</NBPARENT>
+						<NBCHILD>44</NBCHILD>
+						<X>320</X>
+						<XMax>320</XMax>
+						<XMin>320</XMin>
+						<Y>197</Y>
+						<YMax>197</YMax>
+						<YMin>197</YMin>
+						<CX>278</CX>
+						<CXMax>278</CXMax>
+						<CXMin>278</CXMin>
+						<CY>156</CY>
+						<CYMax>156</CYMax>
+						<CYMin>156</CYMin>
+						<RX>-291</RX>
+						<BY>-170</BY>
+					</PROPERTIES>
+					<CTX_PROPS>
+						<BOUNDINGRECT>320|197|278|156</BOUNDINGRECT>
+						<TITLE>GroupBox - Industry</TITLE>
+						<NAMEKEY>IDENT</NAMEKEY>
+						<CONTROLTYPE>GroupBox</CONTROLTYPE>
+						<PREFIX />
+						<TEXT>Industry</TEXT>
+						<TEXTKEY>TITRE</TEXTKEY>
+						<PARAMNAME>Industry</PARAMNAME>
+						<PARENTTREE>6359298|11733754|65552</PARENTTREE>
+						<ISVISIBLE>True</ISVISIBLE>
+					</CTX_PROPS>
+				</ITEM>
+			</CHILDREN>
+		</ITEM>
+	</CHILDREN>
+</PAGE>

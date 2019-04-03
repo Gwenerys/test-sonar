@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ConteXtorStudio Version="StudioReco V1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="XsdStudio.xsd">
+	<PROCESSUS>
+		<PROCESS Name="GLOBAL" Key="NoKey" Comment="Global Processus">
+			<_DECLAREVAR>
+				<STRUCTUREDON Name="GLOBAL" />
+			</_DECLAREVAR>
+			<SCRIPTS />
+			<RESOURCES />
+		</PROCESS>
+	</PROCESSUS>
+	<APPLICATIONS>
+		<APPLI Name="SampleCRM" Nature="WIN" TechnoSDK="V3">
+			<CAPTURE Name="APPLI_SampleCRM_1" CtxtId="12" Techno="WIN" />
+			<CRITERE>
+				<EXE Scan="Full"><![CDATA[SAMPLECRM.EXE]]></EXE>
+			</CRITERE>
+			<_DECLAREVAR>
+				<STRUCTUREDON Name="SampleCRM" />
+			</_DECLAREVAR>
+			<_ECRANS>
+				<PAGE Name="pSampleCRM" Comment="#32770 - Sample CRM">
+					<CRITERE>
+						<TITRE Scan="Full"><![CDATA[Sample CRM]]></TITRE>
+					</CRITERE>
+					<OBJETS>
+						<OBJET Name="edContractId" CapturedPos="20.R0R1" TypObj="Txt">
+							<CRITERE>
+								<IDENT><![CDATA[1000]]></IDENT>
+							</CRITERE>
+						</OBJET>
+						<OBJET Name="btSearch" CapturedPos="20.R0R2" TypObj="Btn">
+							<CRITERE>
+								<IDENT><![CDATA[1001]]></IDENT>
+							</CRITERE>
+						</OBJET>
+						<OBJET Name="edName" CapturedPos="20.R0R9" TypObj="Txt">
+							<CRITERE>
+								<IDENT><![CDATA[1003]]></IDENT>
+							</CRITERE>
+						</OBJET>
+						<OBJET Name="edFirstname" CapturedPos="20.R0R8" TypObj="Txt">
+							<CRITERE>
+								<IDENT><![CDATA[1002]]></IDENT>
+							</CRITERE>
+						</OBJET>
+						<OBJET Name="edSerialNumber" CapturedPos="20.R0R25" TypObj="Txt">
+							<CRITERE>
+								<IDENT><![CDATA[1007]]></IDENT>
+							</CRITERE>
+						</OBJET>
+						<OBJET Name="edEquipmentType" CapturedPos="20.R0R29" TypObj="Txt">
+							<CRITERE>
+								<IDENT><![CDATA[1018]]></IDENT>
+							</CRITERE>
+						</OBJET>
+						<OBJET Name="edOfferType" CapturedPos="20.R0R31" TypObj="Txt">
+							<CRITERE>
+								<IDENT><![CDATA[1019]]></IDENT>
+							</CRITERE>
+						</OBJET>
+					</OBJETS>
+					<CAPTURE Name="PAGE_SampleCRM_0943406_1" Comment="#32770 - Sample CRM" CtxtId="20" Techno="WIN" CapturedPos="20.R0" Timestamp="10/10/2017 09:43:40" />
+				</PAGE>
+			</_ECRANS>
+			<PATH><![CDATA[d:\Profiles\gbriere\Desktop\RPA\Contextor\3.2.6\Samples\applications\win\SampleCRM.exe]]></PATH>
+			<SCRIPTS />
+			<ACTIONS />
+			<EVENTS />
+			<SCENARII>
+				<Steps />
+			</SCENARII>
+		</APPLI>
+	</APPLICATIONS>
+</ConteXtorStudio>

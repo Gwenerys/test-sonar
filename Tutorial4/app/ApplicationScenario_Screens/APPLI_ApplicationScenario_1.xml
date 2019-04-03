@@ -1,0 +1,5 @@
+﻿<APPLI Techno="WIN" Name="APPLI_ApplicationScenario_1" ParamName="Application Scenario - MFC">
+	<PROPERTIES>
+		<EXE>SAMPLESCENARIO.EXE</EXE>
+	</PROPERTIES>
+</APPLI>

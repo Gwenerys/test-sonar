@@ -1,0 +1,95 @@
+.btn{
+	/* width:100%; */	
+  padding: 4px 8px;
+  margin: 4px;
+}
+
+.blue {
+	background-color: #e0e0ff;
+}
+
+.green {
+	background-color: #c0ffc0;
+}
+
+.yellow {
+	background-color: #ffffc0;
+}
+
+.orange {
+	background-color: #ffe080;
+}
+
+.red {
+	background-color: #ffc0c0;
+}
+
+/*.popupDiv {
+  padding: 0px;
+  margin: 0px;
+}*/
+
+.container {
+  padding: 8px;
+}
+
+/*.row{
+	margin-right:0px;
+	margin-left:0px
+}*/
+
+.modal-body {
+	padding: 0px 8px; 
+}
+
+.modal-header {
+	padding: 0px 8px; 
+	border-bottom-color: transparent; 
+}
+
+.modal-footer {
+	padding: 0px 8px; 
+	border-top-color: transparent; 
+}
+
+.modal-dialog {
+	font-size: 0.9em; 
+	margin: 0px;
+	padding: 2px; 
+}
+
+.icon-class{
+  text-align:center;
+  padding: 12px;
+}
+ 
+/*.icon-class img{
+	width:100%;
+}*/
+  
+.icon-class-tooltip {
+	display:inline-block;
+    vertical-align:middle;
+	text-align:center;
+}
+/*.icon-class-tooltip img{
+ 	width:100%;	
+ margin:auto;
+  
+ }
+ 
+ .navbar-collapse.collapse {
+  display: block!important;
+}
+
+.navbar-nav>li, .navbar-nav {
+  float: left !important;
+}
+
+.navbar-nav.navbar-right:last-child {
+  margin-right: -15px !important;
+}
+
+.navbar-right {
+  float: right!important;
+}*/

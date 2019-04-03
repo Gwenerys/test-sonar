@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<USER>
+	<BREAKPOINTS />
+	<BOOKMARKS />
+	<FINDHISTORY />
+	<DEBUGTRACEFINDHISTORY />
+	<OPENDOCS>
+		<OPENDOC LineNumber="58" SearchPath="PROCESS[@Name='GLOBAL']/SCRIPTS/SCRIPT[@Name='MainProject']" Offset="0" Length="0" />
+		<OPENDOC LineNumber="98" SearchPath="PROCESS[@Name='GLOBAL']/SCRIPTS/SCRIPT[@Name='AppliScenario']" Offset="0" Length="0" />
+	</OPENDOCS>
+	<PROPERTIES>
+		<CurEnvironment><![CDATA[Development]]></CurEnvironment>
+		<CurPerspective><![CDATA[1]]></CurPerspective>
+		<DebugTester><![CDATA[]]></DebugTester>
+	</PROPERTIES>
+	<WATCHES />
+	<APPLIFILTERS />
+	<EVENTFILTERS />
+</USER>

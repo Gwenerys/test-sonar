@@ -1,0 +1,85 @@
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- saved from url=(0014)about:internet --><head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>Eligibility</title>
+    <link href="eligibility/eligbilite.css" rel="stylesheet" type="text/css">
+    <script language="javascript">
+
+        function clear_offer() {
+            document.getElementById('contract_id').value = "";
+			document.getElementById('name').value = "";
+			document.getElementById('firstname').value = "";
+			document.getElementById('serial_number').value = "";
+			document.getElementById('equipment_type').value = "";
+			document.getElementById('offer_type').value = "";
+			document.getElementById('eligibility').innerText = "";
+		
+        }
+        function search_offer() {
+            if (document.getElementById('contract_id').value != "") {
+                //document.getElementById('name').value = "Kopp";
+                //document.getElementById('firstname').value = "Julien";
+                document.getElementById('serial_number').value = "8966-447LM";
+                document.getElementById('equipment_type').value = "985-145";
+                document.getElementById('offer_type').value = "Promo Noël";
+                document.getElementById('eligibility').innerText = "Yes";
+            }
+        }
+	</script>
+  </head>
+  <body>
+    <div id="globalcontainer">
+        <h1>Offer Eligibility</h1>
+        <div id="container">
+            <div class="label">
+                Please complete following information :
+            </div>
+            <div class="recherche">
+                <button id="search" onclick="search_offer();" value="search">Search</button>
+                <button id="clear" onclick="clear_offer();" value="clear">Clear</button>
+             </div>
+            <div class="procom_label">
+                Contract ID : 
+            </div>
+            <div class="procom_input">
+                <input id="contract_id" type="text" size="20">
+             </div>
+            <div class="procom_label">
+                Name : 
+            </div>
+            <div class="procom_input">
+                <input id="name" type="text" size="20">
+             </div>
+            <div class="procom_label">
+                Firstname : 
+            </div>
+            <div class="procom_input">
+                <input id="firstname" type="text" size="20">
+             </div>
+             <div class="procom_label">
+                Serial Number : 
+            </div>
+            <div class="procom_input">
+                <input id="serial_number" type="text" size="20">
+             </div>
+             <div class="procom_label">
+                Equipment Type : 
+            </div>
+            <div class="procom_input">
+                <input id="equipment_type" type="text" size="20">
+             </div>
+             <div class="procom_label">
+                Offer Type : 
+            </div>
+            <div class="procom_input">
+                <input id="offer_type" type="text" size="20">
+             </div>
+              <div class="procom_label">
+                Eligibility : 
+            </div>
+            <div class="procom_input">
+                <span id="eligibility"></span>
+             </div>
+        </div>
+    </div>
+  
+</body></html>

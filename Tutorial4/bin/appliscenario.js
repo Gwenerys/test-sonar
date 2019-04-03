@@ -15,7 +15,7 @@ ApplicationScenario.step({ stApplicationScenarioSTART: function(ev, sc, st) {
 
 /** Description */
 SampleCRM.step({ stSampleCRMSTART: function(ev, sc, st) {
-
+	var data = sc.data;
 	SampleCRM.start();
 	SampleCRM.pSampleCRM.wait(function(ev1) {
 		sc.endStep();
@@ -47,7 +47,7 @@ SampleCRM.step({ stSampleCRMGetData: function(ev, sc, st) {
 
 /** Description */
 Eligibility.step({ stEligibilitySTART: function(ev, sc, st) {
-
+	var data = sc.data;
 	Eligibility.start();
 	Eligibility.pEligibility.wait(function(ev1){
 		sc.endStep();
@@ -92,7 +92,7 @@ ApplicationScenario.step({ stAppScenarioRecoverData: function(ev, sc, st) {
 
 /** Description */
 ApplicationScenario.step({ stEditHandler: function(ev, sc, st) {
-
+	var data = sc.data;
 	ApplicationScenario.pApplicationScenario.edEdit.events.COMMAND.on(function(ev1){
 		var obj = ApplicationScenario.pApplicationScenario.edEdit.get();
 		ctx.log(obj);
@@ -113,7 +113,7 @@ ApplicationScenario.step({ stEditHandler: function(ev, sc, st) {
 
 /** Description */
 ApplicationScenario.scenario({ scScenario: function(ev, sc) {
-
+	var data = sc.data;
 	sc.onTimeout(30000, function(sc, st) { sc.endScenario();	}); // default timeout handler for each step
 	sc.onError(function(sc, st, ex) { sc.endScenario();	}); // default error handler
 	sc.setMode(e.scenario.mode.clearIfRunning);

@@ -1,0 +1,9 @@
+﻿<APPLI Techno="WEB" Name="APPLI_Eligibility_1" ParamName="Eligibility">
+	<PROPERTIES>
+		<TITRE>Eligibility</TITRE>
+		<URL>file://D:\Profiles\gbriere\Desktop\RPA\Contextor\3.2.6\Samples\applications\web\eligibility\eligibility.htm</URL>
+		<CX>670</CX>
+		<CY>10</CY>
+		<MAINFRAME>true</MAINFRAME>
+	</PROPERTIES>
+</APPLI>

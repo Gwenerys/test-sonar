@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ConteXtorStudio Version="StudioReco V1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="XsdStudio.xsd">
+	<PROCESSUS>
+		<PROCESS Name="GLOBAL" Key="NoKey" Comment="Global Processus">
+			<_DECLAREVAR>
+				<STRUCTUREDON Name="GLOBAL" />
+			</_DECLAREVAR>
+			<SCRIPTS />
+			<RESOURCES />
+		</PROCESS>
+	</PROCESSUS>
+	<APPLICATIONS>
+		<APPLI Name="Eligibility" Nature="WEB3" TechnoSDK="V3" Sync="250">
+			<CAPTURE Name="APPLI_Eligibility_1" CtxtId="10" Techno="WEB" />
+			<CRITERE>
+				<TITRE Scan="Full"><![CDATA[Eligibility]]></TITRE>
+			</CRITERE>
+			<_DECLAREVAR>
+				<STRUCTUREDON Name="Eligibility" />
+			</_DECLAREVAR>
+			<_ECRANS>
+				<PAGE Name="pEligibility" Comment="Eligibility">
+					<CRITERE>
+						<TITRE Scan="Full"><![CDATA[Eligibility]]></TITRE>
+					</CRITERE>
+					<PATH><![CDATA[file://D:\Profiles\gbriere\Desktop\RPA\Contextor\3.2.6\Samples\applications\web\eligibility\eligibility.htm]]></PATH>
+					<OBJETS>
+						<OBJET Name="oContractId">
+							<CRITERE>
+								<TAG Name="INPUT" Scope="All" CapturedPos="16.R0R1R0R1R3R0">
+									<ATT Name="id">
+										<VALUE Scan="Full"><![CDATA[contract_id]]></VALUE>
+									</ATT>
+								</TAG>
+							</CRITERE>
+						</OBJET>
+						<OBJET Name="oName">
+							<CRITERE>
+								<TAG Name="INPUT" Scope="All" CapturedPos="16.R0R1R0R1R5R0">
+									<ATT Name="id">
+										<VALUE Scan="Full"><![CDATA[name]]></VALUE>
+									</ATT>
+								</TAG>
+							</CRITERE>
+						</OBJET>
+						<OBJET Name="oFirstname">
+							<CRITERE>
+								<TAG Name="INPUT" Scope="All" CapturedPos="16.R0R1R0R1R7R0">
+									<ATT Name="id">
+										<VALUE Scan="Full"><![CDATA[firstname]]></VALUE>
+									</ATT>
+								</TAG>
+							</CRITERE>
+						</OBJET>
+						<OBJET Name="oSerialNumber">
+							<CRITERE>
+								<TAG Name="INPUT" Scope="All" CapturedPos="16.R0R1R0R1R9R0">
+									<ATT Name="id">
+										<VALUE Scan="Full"><![CDATA[serial_number]]></VALUE>
+									</ATT>
+								</TAG>
+							</CRITERE>
+						</OBJET>
+						<OBJET Name="oEquipmentType">
+							<CRITERE>
+								<TAG Name="INPUT" Scope="All" CapturedPos="16.R0R1R0R1R11R0">
+									<ATT Name="id">
+										<VALUE Scan="Full"><![CDATA[equipment_type]]></VALUE>
+									</ATT>
+								</TAG>
+							</CRITERE>
+						</OBJET>
+						<OBJET Name="oOfferType">
+							<CRITERE>
+								<TAG Name="INPUT" Scope="All" CapturedPos="16.R0R1R0R1R13R0">
+									<ATT Name="id">
+										<VALUE Scan="Full"><![CDATA[offer_type]]></VALUE>
+									</ATT>
+								</TAG>
+							</CRITERE>
+						</OBJET>
+						<OBJET Name="btSearch">
+							<CRITERE>
+								<TAG Name="BUTTON" Scope="All" CapturedPos="16.R0R1R0R1R1R0">
+									<ATT Name="id">
+										<VALUE Scan="Full"><![CDATA[search]]></VALUE>
+									</ATT>
+								</TAG>
+							</CRITERE>
+						</OBJET>
+					</OBJETS>
+					<CAPTURE Name="PAGE_Eligibility_0941429_1" Comment="Eligibility" CtxtId="16" Techno="WEB" Timestamp="10/10/2017 09:41:43" />
+				</PAGE>
+			</_ECRANS>
+			<PATH><![CDATA[file://D:\Profiles\gbriere\Desktop\RPA\Contextor\3.2.6\Samples\applications\web\eligibility\eligibility.htm]]></PATH>
+			<SCRIPTS />
+			<ACTIONS />
+			<EVENTS />
+			<SCENARII>
+				<Steps />
+			</SCENARII>
+		</APPLI>
+	</APPLICATIONS>
+</ConteXtorStudio>

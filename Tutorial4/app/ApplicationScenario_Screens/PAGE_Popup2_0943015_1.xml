@@ -1,0 +1,148 @@
+﻿<PAGE Techno="WIN" Name="PAGE_Popup2_0943015_1" ProcessName="SAMPLESCENARIO.EXE" ParamName="Popup 2" ParentTree="2492080|65552">
+	<PROPERTIES>
+		<IDENT>0</IDENT>
+		<TITRE>Popup 2</TITRE>
+		<CLASS>#32770</CLASS>
+		<STYLE>WS_BORDER WS_CAPTION WS_DLGFRAME WS_POPUP WS_VISIBLE</STYLE>
+		<EXSTYLE>WS_EX_CONTROLPARENT WS_EX_TOOLWINDOW WS_EX_WINDOWEDGE</EXSTYLE>
+		<ROW />
+		<VRANGE>pas implémenté pour l'instant</VRANGE>
+		<NBPARENT>1</NBPARENT>
+		<NBCHILD>2</NBCHILD>
+		<X>0</X>
+		<XMax>0</XMax>
+		<XMin>0</XMin>
+		<Y>0</Y>
+		<YMax>0</YMax>
+		<YMin>0</YMin>
+		<CX>242</CX>
+		<CXMax>242</CXMax>
+		<CXMin>242</CXMin>
+		<CY>127</CY>
+		<CYMax>127</CYMax>
+		<CYMin>127</CYMin>
+		<RX>-242</RX>
+		<BY>-127</BY>
+		<EXE>SAMPLESCENARIO.EXE</EXE>
+	</PROPERTIES>
+	<CHILDREN>
+		<ITEM>
+			<PROPERTIES>
+				<IDENT>0</IDENT>
+				<TITRE>Popup 2</TITRE>
+				<CLASS>#32770</CLASS>
+				<STYLE>WS_BORDER WS_CAPTION WS_DLGFRAME WS_POPUP WS_VISIBLE</STYLE>
+				<EXSTYLE>WS_EX_CONTROLPARENT WS_EX_TOOLWINDOW WS_EX_WINDOWEDGE</EXSTYLE>
+				<ROW />
+				<VRANGE>pas implémenté pour l'instant</VRANGE>
+				<NBPARENT>1</NBPARENT>
+				<NBCHILD>2</NBCHILD>
+				<X>0</X>
+				<XMax>0</XMax>
+				<XMin>0</XMin>
+				<Y>0</Y>
+				<YMax>0</YMax>
+				<YMin>0</YMin>
+				<CX>242</CX>
+				<CXMax>242</CXMax>
+				<CXMin>242</CXMin>
+				<CY>127</CY>
+				<CYMax>127</CYMax>
+				<CYMin>127</CYMin>
+				<RX>-242</RX>
+				<BY>-127</BY>
+				<EXE>SAMPLESCENARIO.EXE</EXE>
+			</PROPERTIES>
+			<CTX_PROPS>
+				<BOUNDINGRECT>0|0|242|127</BOUNDINGRECT>
+				<TITLE>#32770 - Popup 2</TITLE>
+				<NAMEKEY>IDENT</NAMEKEY>
+				<CONTROLTYPE>#32770</CONTROLTYPE>
+				<PREFIX />
+				<TEXT>Popup 2</TEXT>
+				<TEXTKEY>TITRE</TEXTKEY>
+				<PARAMNAME>Popup 2</PARAMNAME>
+				<PARENTTREE>2492080|65552</PARENTTREE>
+				<ISVISIBLE>True</ISVISIBLE>
+			</CTX_PROPS>
+			<CHILDREN>
+				<ITEM>
+					<PROPERTIES>
+						<IDENT>1</IDENT>
+						<TITRE>Close</TITRE>
+						<CLASS>Button</CLASS>
+						<STYLE>WS_CHILD WS_TABSTOP WS_VISIBLE</STYLE>
+						<ROW>R1</ROW>
+						<VRANGE>pas implémenté pour l'instant</VRANGE>
+						<NBPARENT>2</NBPARENT>
+						<NBCHILD>2</NBCHILD>
+						<X>14</X>
+						<XMax>14</XMax>
+						<XMin>14</XMin>
+						<Y>89</Y>
+						<YMax>89</YMax>
+						<YMin>89</YMin>
+						<CX>75</CX>
+						<CXMax>75</CXMax>
+						<CXMin>75</CXMin>
+						<CY>23</CY>
+						<CYMax>23</CYMax>
+						<CYMin>23</CYMin>
+						<RX>-228</RX>
+						<BY>-38</BY>
+					</PROPERTIES>
+					<CTX_PROPS>
+						<BOUNDINGRECT>14|89|75|23</BOUNDINGRECT>
+						<TITLE>Button - Close</TITLE>
+						<NAMEKEY>IDENT</NAMEKEY>
+						<CONTROLTYPE>Button</CONTROLTYPE>
+						<PREFIX>bt</PREFIX>
+						<TEXT>Close</TEXT>
+						<TEXTKEY>TITRE</TEXTKEY>
+						<PARAMNAME>Close</PARAMNAME>
+						<PARENTTREE>10686182|2492080|65552</PARENTTREE>
+						<ISVISIBLE>True</ISVISIBLE>
+					</CTX_PROPS>
+				</ITEM>
+				<ITEM>
+					<PROPERTIES>
+						<IDENT>1004</IDENT>
+						<TITRE>Datas de la Popup2</TITRE>
+						<CLASS>Edit</CLASS>
+						<STYLE>WS_CHILD DS_MODALFRAME WS_TABSTOP WS_VISIBLE</STYLE>
+						<ROW>R2</ROW>
+						<VRANGE>pas implémenté pour l'instant</VRANGE>
+						<NBPARENT>2</NBPARENT>
+						<NBCHILD>2</NBCHILD>
+						<X>14</X>
+						<XMax>14</XMax>
+						<XMin>14</XMin>
+						<Y>37</Y>
+						<YMax>37</YMax>
+						<YMin>37</YMin>
+						<CX>215</CX>
+						<CXMax>215</CXMax>
+						<CXMin>215</CXMin>
+						<CY>49</CY>
+						<CYMax>49</CYMax>
+						<CYMin>49</CYMin>
+						<RX>-228</RX>
+						<BY>-90</BY>
+					</PROPERTIES>
+					<CTX_PROPS>
+						<BOUNDINGRECT>14|37|215|49</BOUNDINGRECT>
+						<TITLE>Edit - Datas de la Popup2</TITLE>
+						<NAMEKEY>IDENT</NAMEKEY>
+						<CONTROLTYPE>Edit</CONTROLTYPE>
+						<PREFIX>ed</PREFIX>
+						<TEXT>Datas de la Popup2</TEXT>
+						<TEXTKEY>TITRE</TEXTKEY>
+						<PARAMNAME>Edit</PARAMNAME>
+						<PARENTTREE>10229782|2492080|65552</PARENTTREE>
+						<ISVISIBLE>True</ISVISIBLE>
+					</CTX_PROPS>
+				</ITEM>
+			</CHILDREN>
+		</ITEM>
+	</CHILDREN>
+</PAGE>

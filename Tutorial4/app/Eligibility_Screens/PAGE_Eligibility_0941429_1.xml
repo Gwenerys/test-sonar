@@ -1,0 +1,1559 @@
+﻿<PAGE Techno="WEB" Name="PAGE_Eligibility_0941429_1" ProcessName="IEXPLORE" ParamName="Eligibility" ParentTree="">
+	<PROPERTIES>
+		<TITRE>Eligibility</TITRE>
+		<URL>file://D:\Profiles\gbriere\Desktop\RPA\Contextor\3.2.6\Samples\applications\web\eligibility\eligibility.htm</URL>
+		<CX>670</CX>
+		<CY>10</CY>
+		<MAINFRAME>true</MAINFRAME>
+	</PROPERTIES>
+	<CHILDREN>
+		<ITEM>
+			<PROPERTIES>
+				<TAG>HTML</TAG>
+				<Text>  Eligibility  function clear_offer() { document.getElementById('contract_id').value = ""; document.getElementById('name').value = ""; document.getElementById('firstname').value = ""; document.getElementById('serial_number').value = ""; document.getElementById('equipment_type').value = ""; document.getElementById('offer_type').value = ""; document.getElementById('eligibility').innerText = ""; } function search_offer() { if (document.getElementById('contract_id').value != "") { //document.getElementById('name').value = "Kopp"; //document.getElementById('firstname').value = "Julien"; document.getElementById('serial_number').value = "8966-447LM"; document.getElementById('equipment_type').value = "985-145"; document.getElementById('offer_type').value = "Promo Noël"; document.getElementById('eligibility').innerText = "Yes"; } }   
+
+Offer Eligibility
+
+
+Please complete following information : 
+
+Search Clear 
+
+Contract ID : 
+
+ 
+
+Name : 
+
+ 
+
+Firstname : 
+
+ 
+
+Serial Number : 
+
+ 
+
+Equipment Type : 
+
+ 
+
+Offer Type : 
+
+ 
+
+Eligibility : 
+
+ </Text>
+				<InnerHTML>&lt;!-- saved from url=(0014)about:internet --&gt;&lt;head&gt;
+    &lt;meta http-equiv="content-type" content="text/html; charset=UTF-8"&gt;
+    &lt;title&gt;Eligibility&lt;/title&gt;
+    &lt;link href="eligibility/eligbilite.css" rel="stylesheet" type="text/css"&gt;
+    &lt;script language="javascript"&gt;
+
+        function clear_offer() {
+            document.getElementById('contract_id').value = "";
+			document.getElementById('name').value = "";
+			document.getElementById('firstname').value = "";
+			document.getElementById('serial_number').value = "";
+			document.getElementById('equipment_type').value = "";
+			document.getElementById('offer_type').value = "";
+			document.getElementById('eligibility').innerText = "";
+		
+        }
+        function search_offer() {
+            if (document.getElementById('contract_id').value != "") {
+                //document.getElementById('name').value = "Kopp";
+                //document.getElementById('firstname').value = "Julien";
+                document.getElementById('serial_number').value = "8966-447LM";
+                document.getElementById('equipment_type').value = "985-145";
+                document.getElementById('offer_type').value = "Promo Noël";
+                document.getElementById('eligibility').innerText = "Yes";
+            }
+        }
+	&lt;/script&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;div id="globalcontainer"&gt;
+        &lt;h1&gt;Offer Eligibility&lt;/h1&gt;
+        &lt;div id="container"&gt;
+            &lt;div class="label"&gt;
+                Please complete following information :
+            &lt;/div&gt;
+            &lt;div class="recherche"&gt;
+                &lt;button id="search" onclick="search_offer();" value="search"&gt;Search&lt;/button&gt;
+                &lt;button id="clear" onclick="clear_offer();" value="clear"&gt;Clear&lt;/button&gt;
+             &lt;/div&gt;
+            &lt;div class="procom_label"&gt;
+                Contract ID : 
+            &lt;/div&gt;
+            &lt;div class="procom_input"&gt;
+                &lt;input id="contract_id" type="text" size="20"&gt;
+             &lt;/div&gt;
+            &lt;div class="procom_label"&gt;
+                Name : 
+            &lt;/div&gt;
+            &lt;div class="procom_input"&gt;
+                &lt;input id="name" type="text" size="20"&gt;
+             &lt;/div&gt;
+            &lt;div class="procom_label"&gt;
+                Firstname : 
+            &lt;/div&gt;
+            &lt;div class="procom_input"&gt;
+                &lt;input id="firstname" type="text" size="20"&gt;
+             &lt;/div&gt;
+             &lt;div class="procom_label"&gt;
+                Serial Number : 
+            &lt;/div&gt;
+            &lt;div class="procom_input"&gt;
+                &lt;input id="serial_number" type="text" size="20"&gt;
+             &lt;/div&gt;
+             &lt;div class="procom_label"&gt;
+                Equipment Type : 
+            &lt;/div&gt;
+            &lt;div class="procom_input"&gt;
+                &lt;input id="equipment_type" type="text" size="20"&gt;
+             &lt;/div&gt;
+             &lt;div class="procom_label"&gt;
+                Offer Type : 
+            &lt;/div&gt;
+            &lt;div class="procom_input"&gt;
+                &lt;input id="offer_type" type="text" size="20"&gt;
+             &lt;/div&gt;
+              &lt;div class="procom_label"&gt;
+                Eligibility : 
+            &lt;/div&gt;
+            &lt;div class="procom_input"&gt;
+                &lt;span id="eligibility"&gt;&lt;/span&gt;
+             &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+  
+&lt;/body&gt;</InnerHTML>
+				<OuterHTML>&lt;html xmlns="http://www.w3.org/1999/xhtml"&gt;&lt;!-- saved from url=(0014)about:internet --&gt;&lt;head&gt;
+    &lt;meta http-equiv="content-type" content="text/html; charset=UTF-8"&gt;
+    &lt;title&gt;Eligibility&lt;/title&gt;
+    &lt;link href="eligibility/eligbilite.css" rel="stylesheet" type="text/css"&gt;
+    &lt;script language="javascript"&gt;
+
+        function clear_offer() {
+            document.getElementById('contract_id').value = "";
+			document.getElementById('name').value = "";
+			document.getElementById('firstname').value = "";
+			document.getElementById('serial_number').value = "";
+			document.getElementById('equipment_type').value = "";
+			document.getElementById('offer_type').value = "";
+			document.getElementById('eligibility').innerText = "";
+		
+        }
+        function search_offer() {
+            if (document.getElementById('contract_id').value != "") {
+                //document.getElementById('name').value = "Kopp";
+                //document.getElementById('firstname').value = "Julien";
+                document.getElementById('serial_number').value = "8966-447LM";
+                document.getElementById('equipment_type').value = "985-145";
+                document.getElementById('offer_type').value = "Promo Noël";
+                document.getElementById('eligibility').innerText = "Yes";
+            }
+        }
+	&lt;/script&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;div id="globalcontainer"&gt;
+        &lt;h1&gt;Offer Eligibility&lt;/h1&gt;
+        &lt;div id="container"&gt;
+            &lt;div class="label"&gt;
+                Please complete following information :
+            &lt;/div&gt;
+            &lt;div class="recherche"&gt;
+                &lt;button id="search" onclick="search_offer();" value="search"&gt;Search&lt;/button&gt;
+                &lt;button id="clear" onclick="clear_offer();" value="clear"&gt;Clear&lt;/button&gt;
+             &lt;/div&gt;
+            &lt;div class="procom_label"&gt;
+                Contract ID : 
+            &lt;/div&gt;
+            &lt;div class="procom_input"&gt;
+                &lt;input id="contract_id" type="text" size="20"&gt;
+             &lt;/div&gt;
+            &lt;div class="procom_label"&gt;
+                Name : 
+            &lt;/div&gt;
+            &lt;div class="procom_input"&gt;
+                &lt;input id="name" type="text" size="20"&gt;
+             &lt;/div&gt;
+            &lt;div class="procom_label"&gt;
+                Firstname : 
+            &lt;/div&gt;
+            &lt;div class="procom_input"&gt;
+                &lt;input id="firstname" type="text" size="20"&gt;
+             &lt;/div&gt;
+             &lt;div class="procom_label"&gt;
+                Serial Number : 
+            &lt;/div&gt;
+            &lt;div class="procom_input"&gt;
+                &lt;input id="serial_number" type="text" size="20"&gt;
+             &lt;/div&gt;
+             &lt;div class="procom_label"&gt;
+                Equipment Type : 
+            &lt;/div&gt;
+            &lt;div class="procom_input"&gt;
+                &lt;input id="equipment_type" type="text" size="20"&gt;
+             &lt;/div&gt;
+             &lt;div class="procom_label"&gt;
+                Offer Type : 
+            &lt;/div&gt;
+            &lt;div class="procom_input"&gt;
+                &lt;input id="offer_type" type="text" size="20"&gt;
+             &lt;/div&gt;
+              &lt;div class="procom_label"&gt;
+                Eligibility : 
+            &lt;/div&gt;
+            &lt;div class="procom_input"&gt;
+                &lt;span id="eligibility"&gt;&lt;/span&gt;
+             &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+  
+&lt;/body&gt;&lt;/html&gt;</OuterHTML>
+				<range>0</range>
+				<contentEditable>inherit</contentEditable>
+			</PROPERTIES>
+			<CTX_PROPS>
+				<BOUNDINGRECT>0|0|837|12</BOUNDINGRECT>
+				<TITLE>HTML</TITLE>
+				<NAMEKEY>id</NAMEKEY>
+				<CONTROLTYPE>HTML</CONTROLTYPE>
+				<PREFIX />
+				<TEXT />
+				<TEXTKEY>Text</TEXTKEY>
+				<PARAMNAME />
+				<PARENTTREE />
+				<ISVISIBLE>True</ISVISIBLE>
+			</CTX_PROPS>
+			<CHILDREN>
+				<ITEM>
+					<PROPERTIES>
+						<TAG>HEAD</TAG>
+						<Text> Eligibility  function clear_offer() { document.getElementById('contract_id').value = ""; document.getElementById('name').value = ""; document.getElementById('firstname').value = ""; document.getElementById('serial_number').value = ""; document.getElementById('equipment_type').value = ""; document.getElementById('offer_type').value = ""; document.getElementById('eligibility').innerText = ""; } function search_offer() { if (document.getElementById('contract_id').value != "") { //document.getElementById('name').value = "Kopp"; //document.getElementById('firstname').value = "Julien"; document.getElementById('serial_number').value = "8966-447LM"; document.getElementById('equipment_type').value = "985-145"; document.getElementById('offer_type').value = "Promo Noël"; document.getElementById('eligibility').innerText = "Yes"; } }  </Text>
+						<InnerHTML>
+    &lt;meta http-equiv="content-type" content="text/html; charset=UTF-8"&gt;
+    &lt;title&gt;Eligibility&lt;/title&gt;
+    &lt;link href="eligibility/eligbilite.css" rel="stylesheet" type="text/css"&gt;
+    &lt;script language="javascript"&gt;
+
+        function clear_offer() {
+            document.getElementById('contract_id').value = "";
+			document.getElementById('name').value = "";
+			document.getElementById('firstname').value = "";
+			document.getElementById('serial_number').value = "";
+			document.getElementById('equipment_type').value = "";
+			document.getElementById('offer_type').value = "";
+			document.getElementById('eligibility').innerText = "";
+		
+        }
+        function search_offer() {
+            if (document.getElementById('contract_id').value != "") {
+                //document.getElementById('name').value = "Kopp";
+                //document.getElementById('firstname').value = "Julien";
+                document.getElementById('serial_number').value = "8966-447LM";
+                document.getElementById('equipment_type').value = "985-145";
+                document.getElementById('offer_type').value = "Promo Noël";
+                document.getElementById('eligibility').innerText = "Yes";
+            }
+        }
+	&lt;/script&gt;
+  </InnerHTML>
+						<OuterHTML>&lt;head&gt;
+    &lt;meta http-equiv="content-type" content="text/html; charset=UTF-8"&gt;
+    &lt;title&gt;Eligibility&lt;/title&gt;
+    &lt;link href="eligibility/eligbilite.css" rel="stylesheet" type="text/css"&gt;
+    &lt;script language="javascript"&gt;
+
+        function clear_offer() {
+            document.getElementById('contract_id').value = "";
+			document.getElementById('name').value = "";
+			document.getElementById('firstname').value = "";
+			document.getElementById('serial_number').value = "";
+			document.getElementById('equipment_type').value = "";
+			document.getElementById('offer_type').value = "";
+			document.getElementById('eligibility').innerText = "";
+		
+        }
+        function search_offer() {
+            if (document.getElementById('contract_id').value != "") {
+                //document.getElementById('name').value = "Kopp";
+                //document.getElementById('firstname').value = "Julien";
+                document.getElementById('serial_number').value = "8966-447LM";
+                document.getElementById('equipment_type').value = "985-145";
+                document.getElementById('offer_type').value = "Promo Noël";
+                document.getElementById('eligibility').innerText = "Yes";
+            }
+        }
+	&lt;/script&gt;
+  &lt;/head&gt;</OuterHTML>
+						<range>0</range>
+						<contentEditable>inherit</contentEditable>
+					</PROPERTIES>
+					<CTX_PROPS>
+						<BOUNDINGRECT>0|0|0|0</BOUNDINGRECT>
+						<TITLE>HEAD</TITLE>
+						<NAMEKEY>id</NAMEKEY>
+						<CONTROLTYPE>HEAD</CONTROLTYPE>
+						<PREFIX />
+						<TEXT />
+						<TEXTKEY>Text</TEXTKEY>
+						<PARAMNAME />
+						<PARENTTREE />
+						<ISVISIBLE>True</ISVISIBLE>
+					</CTX_PROPS>
+					<CHILDREN>
+						<ITEM>
+							<PROPERTIES>
+								<TAG>META</TAG>
+								<OuterHTML>&lt;meta http-equiv="content-type" content="text/html; charset=UTF-8"&gt;</OuterHTML>
+								<range>0</range>
+								<contentEditable>inherit</contentEditable>
+								<content>text/html; charset=UTF-8</content>
+								<http-equiv>content-type</http-equiv>
+							</PROPERTIES>
+							<CTX_PROPS>
+								<BOUNDINGRECT>0|0|0|0</BOUNDINGRECT>
+								<TITLE>META</TITLE>
+								<NAMEKEY>id</NAMEKEY>
+								<CONTROLTYPE>META</CONTROLTYPE>
+								<PREFIX />
+								<TEXT />
+								<TEXTKEY>Text</TEXTKEY>
+								<PARAMNAME />
+								<PARENTTREE />
+								<ISVISIBLE>True</ISVISIBLE>
+							</CTX_PROPS>
+						</ITEM>
+						<ITEM>
+							<PROPERTIES>
+								<TAG>TITLE</TAG>
+								<Text>Eligibility</Text>
+								<InnerHTML>Eligibility</InnerHTML>
+								<OuterHTML>&lt;title&gt;Eligibility&lt;/title&gt;</OuterHTML>
+								<range>0</range>
+								<contentEditable>inherit</contentEditable>
+							</PROPERTIES>
+							<CTX_PROPS>
+								<BOUNDINGRECT>0|0|0|0</BOUNDINGRECT>
+								<TITLE>TITLE - Eligibility</TITLE>
+								<NAMEKEY>id</NAMEKEY>
+								<CONTROLTYPE>TITLE</CONTROLTYPE>
+								<PREFIX />
+								<TEXT>Eligibility</TEXT>
+								<TEXTKEY>Text</TEXTKEY>
+								<PARAMNAME />
+								<PARENTTREE />
+								<ISVISIBLE>True</ISVISIBLE>
+							</CTX_PROPS>
+						</ITEM>
+						<ITEM>
+							<PROPERTIES>
+								<TAG>LINK</TAG>
+								<href>eligibility/eligbilite.css</href>
+								<OuterHTML>&lt;link href="eligibility/eligbilite.css" rel="stylesheet" type="text/css"&gt;</OuterHTML>
+								<range>0</range>
+								<contentEditable>inherit</contentEditable>
+								<rel>stylesheet</rel>
+								<type>text/css</type>
+							</PROPERTIES>
+							<CTX_PROPS>
+								<BOUNDINGRECT>0|0|0|0</BOUNDINGRECT>
+								<TITLE>LINK</TITLE>
+								<NAMEKEY>id</NAMEKEY>
+								<CONTROLTYPE>LINK</CONTROLTYPE>
+								<PREFIX />
+								<TEXT />
+								<TEXTKEY>Text</TEXTKEY>
+								<PARAMNAME />
+								<PARENTTREE />
+								<ISVISIBLE>True</ISVISIBLE>
+							</CTX_PROPS>
+						</ITEM>
+					</CHILDREN>
+				</ITEM>
+				<ITEM>
+					<PROPERTIES>
+						<TAG>BODY</TAG>
+						<Text>
+Offer Eligibility
+
+
+Please complete following information : 
+
+Search Clear 
+
+Contract ID : 
+
+ 
+
+Name : 
+
+ 
+
+Firstname : 
+
+ 
+
+Serial Number : 
+
+ 
+
+Equipment Type : 
+
+ 
+
+Offer Type : 
+
+ 
+
+Eligibility : 
+
+ </Text>
+						<InnerHTML>
+    &lt;div id="globalcontainer"&gt;
+        &lt;h1&gt;Offer Eligibility&lt;/h1&gt;
+        &lt;div id="container"&gt;
+            &lt;div class="label"&gt;
+                Please complete following information :
+            &lt;/div&gt;
+            &lt;div class="recherche"&gt;
+                &lt;button id="search" onclick="search_offer();" value="search"&gt;Search&lt;/button&gt;
+                &lt;button id="clear" onclick="clear_offer();" value="clear"&gt;Clear&lt;/button&gt;
+             &lt;/div&gt;
+            &lt;div class="procom_label"&gt;
+                Contract ID : 
+            &lt;/div&gt;
+            &lt;div class="procom_input"&gt;
+                &lt;input id="contract_id" type="text" size="20"&gt;
+             &lt;/div&gt;
+            &lt;div class="procom_label"&gt;
+                Name : 
+            &lt;/div&gt;
+            &lt;div class="procom_input"&gt;
+                &lt;input id="name" type="text" size="20"&gt;
+             &lt;/div&gt;
+            &lt;div class="procom_label"&gt;
+                Firstname : 
+            &lt;/div&gt;
+            &lt;div class="procom_input"&gt;
+                &lt;input id="firstname" type="text" size="20"&gt;
+             &lt;/div&gt;
+             &lt;div class="procom_label"&gt;
+                Serial Number : 
+            &lt;/div&gt;
+            &lt;div class="procom_input"&gt;
+                &lt;input id="serial_number" type="text" size="20"&gt;
+             &lt;/div&gt;
+             &lt;div class="procom_label"&gt;
+                Equipment Type : 
+            &lt;/div&gt;
+            &lt;div class="procom_input"&gt;
+                &lt;input id="equipment_type" type="text" size="20"&gt;
+             &lt;/div&gt;
+             &lt;div class="procom_label"&gt;
+                Offer Type : 
+            &lt;/div&gt;
+            &lt;div class="procom_input"&gt;
+                &lt;input id="offer_type" type="text" size="20"&gt;
+             &lt;/div&gt;
+              &lt;div class="procom_label"&gt;
+                Eligibility : 
+            &lt;/div&gt;
+            &lt;div class="procom_input"&gt;
+                &lt;span id="eligibility"&gt;&lt;/span&gt;
+             &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+  
+</InnerHTML>
+						<OuterHTML>&lt;body&gt;
+    &lt;div id="globalcontainer"&gt;
+        &lt;h1&gt;Offer Eligibility&lt;/h1&gt;
+        &lt;div id="container"&gt;
+            &lt;div class="label"&gt;
+                Please complete following information :
+            &lt;/div&gt;
+            &lt;div class="recherche"&gt;
+                &lt;button id="search" onclick="search_offer();" value="search"&gt;Search&lt;/button&gt;
+                &lt;button id="clear" onclick="clear_offer();" value="clear"&gt;Clear&lt;/button&gt;
+             &lt;/div&gt;
+            &lt;div class="procom_label"&gt;
+                Contract ID : 
+            &lt;/div&gt;
+            &lt;div class="procom_input"&gt;
+                &lt;input id="contract_id" type="text" size="20"&gt;
+             &lt;/div&gt;
+            &lt;div class="procom_label"&gt;
+                Name : 
+            &lt;/div&gt;
+            &lt;div class="procom_input"&gt;
+                &lt;input id="name" type="text" size="20"&gt;
+             &lt;/div&gt;
+            &lt;div class="procom_label"&gt;
+                Firstname : 
+            &lt;/div&gt;
+            &lt;div class="procom_input"&gt;
+                &lt;input id="firstname" type="text" size="20"&gt;
+             &lt;/div&gt;
+             &lt;div class="procom_label"&gt;
+                Serial Number : 
+            &lt;/div&gt;
+            &lt;div class="procom_input"&gt;
+                &lt;input id="serial_number" type="text" size="20"&gt;
+             &lt;/div&gt;
+             &lt;div class="procom_label"&gt;
+                Equipment Type : 
+            &lt;/div&gt;
+            &lt;div class="procom_input"&gt;
+                &lt;input id="equipment_type" type="text" size="20"&gt;
+             &lt;/div&gt;
+             &lt;div class="procom_label"&gt;
+                Offer Type : 
+            &lt;/div&gt;
+            &lt;div class="procom_input"&gt;
+                &lt;input id="offer_type" type="text" size="20"&gt;
+             &lt;/div&gt;
+              &lt;div class="procom_label"&gt;
+                Eligibility : 
+            &lt;/div&gt;
+            &lt;div class="procom_input"&gt;
+                &lt;span id="eligibility"&gt;&lt;/span&gt;
+             &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+  
+&lt;/body&gt;</OuterHTML>
+						<range>0</range>
+						<contentEditable>inherit</contentEditable>
+						<topMargin>15</topMargin>
+						<rightMargin>10</rightMargin>
+						<bottomMargin>15</bottomMargin>
+						<leftMargin>10</leftMargin>
+					</PROPERTIES>
+					<CTX_PROPS>
+						<BOUNDINGRECT>0|12|837|0</BOUNDINGRECT>
+						<TITLE>BODY</TITLE>
+						<NAMEKEY>id</NAMEKEY>
+						<CONTROLTYPE>BODY</CONTROLTYPE>
+						<PREFIX />
+						<TEXT />
+						<TEXTKEY>Text</TEXTKEY>
+						<PARAMNAME />
+						<PARENTTREE />
+						<ISVISIBLE>True</ISVISIBLE>
+					</CTX_PROPS>
+					<CHILDREN>
+						<ITEM>
+							<PROPERTIES>
+								<TAG>DIV</TAG>
+								<id>globalcontainer</id>
+								<Text>Offer Eligibility
+
+
+Please complete following information : 
+
+Search Clear 
+
+Contract ID : 
+
+ 
+
+Name : 
+
+ 
+
+Firstname : 
+
+ 
+
+Serial Number : 
+
+ 
+
+Equipment Type : 
+
+ 
+
+Offer Type : 
+
+ 
+
+Eligibility : 
+
+ </Text>
+								<InnerHTML>
+        &lt;h1&gt;Offer Eligibility&lt;/h1&gt;
+        &lt;div id="container"&gt;
+            &lt;div class="label"&gt;
+                Please complete following information :
+            &lt;/div&gt;
+            &lt;div class="recherche"&gt;
+                &lt;button id="search" onclick="search_offer();" value="search"&gt;Search&lt;/button&gt;
+                &lt;button id="clear" onclick="clear_offer();" value="clear"&gt;Clear&lt;/button&gt;
+             &lt;/div&gt;
+            &lt;div class="procom_label"&gt;
+                Contract ID : 
+            &lt;/div&gt;
+            &lt;div class="procom_input"&gt;
+                &lt;input id="contract_id" type="text" size="20"&gt;
+             &lt;/div&gt;
+            &lt;div class="procom_label"&gt;
+                Name : 
+            &lt;/div&gt;
+            &lt;div class="procom_input"&gt;
+                &lt;input id="name" type="text" size="20"&gt;
+             &lt;/div&gt;
+            &lt;div class="procom_label"&gt;
+                Firstname : 
+            &lt;/div&gt;
+            &lt;div class="procom_input"&gt;
+                &lt;input id="firstname" type="text" size="20"&gt;
+             &lt;/div&gt;
+             &lt;div class="procom_label"&gt;
+                Serial Number : 
+            &lt;/div&gt;
+            &lt;div class="procom_input"&gt;
+                &lt;input id="serial_number" type="text" size="20"&gt;
+             &lt;/div&gt;
+             &lt;div class="procom_label"&gt;
+                Equipment Type : 
+            &lt;/div&gt;
+            &lt;div class="procom_input"&gt;
+                &lt;input id="equipment_type" type="text" size="20"&gt;
+             &lt;/div&gt;
+             &lt;div class="procom_label"&gt;
+                Offer Type : 
+            &lt;/div&gt;
+            &lt;div class="procom_input"&gt;
+                &lt;input id="offer_type" type="text" size="20"&gt;
+             &lt;/div&gt;
+              &lt;div class="procom_label"&gt;
+                Eligibility : 
+            &lt;/div&gt;
+            &lt;div class="procom_input"&gt;
+                &lt;span id="eligibility"&gt;&lt;/span&gt;
+             &lt;/div&gt;
+        &lt;/div&gt;
+    </InnerHTML>
+								<OuterHTML>&lt;div id="globalcontainer"&gt;
+        &lt;h1&gt;Offer Eligibility&lt;/h1&gt;
+        &lt;div id="container"&gt;
+            &lt;div class="label"&gt;
+                Please complete following information :
+            &lt;/div&gt;
+            &lt;div class="recherche"&gt;
+                &lt;button id="search" onclick="search_offer();" value="search"&gt;Search&lt;/button&gt;
+                &lt;button id="clear" onclick="clear_offer();" value="clear"&gt;Clear&lt;/button&gt;
+             &lt;/div&gt;
+            &lt;div class="procom_label"&gt;
+                Contract ID : 
+            &lt;/div&gt;
+            &lt;div class="procom_input"&gt;
+                &lt;input id="contract_id" type="text" size="20"&gt;
+             &lt;/div&gt;
+            &lt;div class="procom_label"&gt;
+                Name : 
+            &lt;/div&gt;
+            &lt;div class="procom_input"&gt;
+                &lt;input id="name" type="text" size="20"&gt;
+             &lt;/div&gt;
+            &lt;div class="procom_label"&gt;
+                Firstname : 
+            &lt;/div&gt;
+            &lt;div class="procom_input"&gt;
+                &lt;input id="firstname" type="text" size="20"&gt;
+             &lt;/div&gt;
+             &lt;div class="procom_label"&gt;
+                Serial Number : 
+            &lt;/div&gt;
+            &lt;div class="procom_input"&gt;
+                &lt;input id="serial_number" type="text" size="20"&gt;
+             &lt;/div&gt;
+             &lt;div class="procom_label"&gt;
+                Equipment Type : 
+            &lt;/div&gt;
+            &lt;div class="procom_input"&gt;
+                &lt;input id="equipment_type" type="text" size="20"&gt;
+             &lt;/div&gt;
+             &lt;div class="procom_label"&gt;
+                Offer Type : 
+            &lt;/div&gt;
+            &lt;div class="procom_input"&gt;
+                &lt;input id="offer_type" type="text" size="20"&gt;
+             &lt;/div&gt;
+              &lt;div class="procom_label"&gt;
+                Eligibility : 
+            &lt;/div&gt;
+            &lt;div class="procom_input"&gt;
+                &lt;span id="eligibility"&gt;&lt;/span&gt;
+             &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;</OuterHTML>
+								<range>0</range>
+								<contentEditable>inherit</contentEditable>
+							</PROPERTIES>
+							<CTX_PROPS>
+								<BOUNDINGRECT>12|25|502|297</BOUNDINGRECT>
+								<TITLE>DIV</TITLE>
+								<NAMEKEY>id</NAMEKEY>
+								<CONTROLTYPE>DIV</CONTROLTYPE>
+								<PREFIX />
+								<TEXT />
+								<TEXTKEY>Text</TEXTKEY>
+								<PARAMNAME>globalcontainer</PARAMNAME>
+								<PARENTTREE />
+								<ISVISIBLE>True</ISVISIBLE>
+							</CTX_PROPS>
+							<CHILDREN>
+								<ITEM>
+									<PROPERTIES>
+										<TAG>H1</TAG>
+										<Text>Offer Eligibility</Text>
+										<InnerHTML>Offer Eligibility</InnerHTML>
+										<OuterHTML>&lt;h1&gt;Offer Eligibility&lt;/h1&gt;</OuterHTML>
+										<range>0</range>
+										<contentEditable>inherit</contentEditable>
+									</PROPERTIES>
+									<CTX_PROPS>
+										<BOUNDINGRECT>13|26|500|27</BOUNDINGRECT>
+										<TITLE>H1 - Offer Eligibility</TITLE>
+										<NAMEKEY>id</NAMEKEY>
+										<CONTROLTYPE>H1</CONTROLTYPE>
+										<PREFIX />
+										<TEXT>Offer Eligibility</TEXT>
+										<TEXTKEY>Text</TEXTKEY>
+										<PARAMNAME />
+										<PARENTTREE />
+										<ISVISIBLE>True</ISVISIBLE>
+									</CTX_PROPS>
+								</ITEM>
+								<ITEM>
+									<PROPERTIES>
+										<TAG>DIV</TAG>
+										<id>container</id>
+										<Text>Please complete following information : 
+
+Search Clear 
+
+Contract ID : 
+
+ 
+
+Name : 
+
+ 
+
+Firstname : 
+
+ 
+
+Serial Number : 
+
+ 
+
+Equipment Type : 
+
+ 
+
+Offer Type : 
+
+ 
+
+Eligibility : 
+
+ </Text>
+										<InnerHTML>
+            &lt;div class="label"&gt;
+                Please complete following information :
+            &lt;/div&gt;
+            &lt;div class="recherche"&gt;
+                &lt;button id="search" onclick="search_offer();" value="search"&gt;Search&lt;/button&gt;
+                &lt;button id="clear" onclick="clear_offer();" value="clear"&gt;Clear&lt;/button&gt;
+             &lt;/div&gt;
+            &lt;div class="procom_label"&gt;
+                Contract ID : 
+            &lt;/div&gt;
+            &lt;div class="procom_input"&gt;
+                &lt;input id="contract_id" type="text" size="20"&gt;
+             &lt;/div&gt;
+            &lt;div class="procom_label"&gt;
+                Name : 
+            &lt;/div&gt;
+            &lt;div class="procom_input"&gt;
+                &lt;input id="name" type="text" size="20"&gt;
+             &lt;/div&gt;
+            &lt;div class="procom_label"&gt;
+                Firstname : 
+            &lt;/div&gt;
+            &lt;div class="procom_input"&gt;
+                &lt;input id="firstname" type="text" size="20"&gt;
+             &lt;/div&gt;
+             &lt;div class="procom_label"&gt;
+                Serial Number : 
+            &lt;/div&gt;
+            &lt;div class="procom_input"&gt;
+                &lt;input id="serial_number" type="text" size="20"&gt;
+             &lt;/div&gt;
+             &lt;div class="procom_label"&gt;
+                Equipment Type : 
+            &lt;/div&gt;
+            &lt;div class="procom_input"&gt;
+                &lt;input id="equipment_type" type="text" size="20"&gt;
+             &lt;/div&gt;
+             &lt;div class="procom_label"&gt;
+                Offer Type : 
+            &lt;/div&gt;
+            &lt;div class="procom_input"&gt;
+                &lt;input id="offer_type" type="text" size="20"&gt;
+             &lt;/div&gt;
+              &lt;div class="procom_label"&gt;
+                Eligibility : 
+            &lt;/div&gt;
+            &lt;div class="procom_input"&gt;
+                &lt;span id="eligibility"&gt;&lt;/span&gt;
+             &lt;/div&gt;
+        </InnerHTML>
+										<OuterHTML>&lt;div id="container"&gt;
+            &lt;div class="label"&gt;
+                Please complete following information :
+            &lt;/div&gt;
+            &lt;div class="recherche"&gt;
+                &lt;button id="search" onclick="search_offer();" value="search"&gt;Search&lt;/button&gt;
+                &lt;button id="clear" onclick="clear_offer();" value="clear"&gt;Clear&lt;/button&gt;
+             &lt;/div&gt;
+            &lt;div class="procom_label"&gt;
+                Contract ID : 
+            &lt;/div&gt;
+            &lt;div class="procom_input"&gt;
+                &lt;input id="contract_id" type="text" size="20"&gt;
+             &lt;/div&gt;
+            &lt;div class="procom_label"&gt;
+                Name : 
+            &lt;/div&gt;
+            &lt;div class="procom_input"&gt;
+                &lt;input id="name" type="text" size="20"&gt;
+             &lt;/div&gt;
+            &lt;div class="procom_label"&gt;
+                Firstname : 
+            &lt;/div&gt;
+            &lt;div class="procom_input"&gt;
+                &lt;input id="firstname" type="text" size="20"&gt;
+             &lt;/div&gt;
+             &lt;div class="procom_label"&gt;
+                Serial Number : 
+            &lt;/div&gt;
+            &lt;div class="procom_input"&gt;
+                &lt;input id="serial_number" type="text" size="20"&gt;
+             &lt;/div&gt;
+             &lt;div class="procom_label"&gt;
+                Equipment Type : 
+            &lt;/div&gt;
+            &lt;div class="procom_input"&gt;
+                &lt;input id="equipment_type" type="text" size="20"&gt;
+             &lt;/div&gt;
+             &lt;div class="procom_label"&gt;
+                Offer Type : 
+            &lt;/div&gt;
+            &lt;div class="procom_input"&gt;
+                &lt;input id="offer_type" type="text" size="20"&gt;
+             &lt;/div&gt;
+              &lt;div class="procom_label"&gt;
+                Eligibility : 
+            &lt;/div&gt;
+            &lt;div class="procom_input"&gt;
+                &lt;span id="eligibility"&gt;&lt;/span&gt;
+             &lt;/div&gt;
+        &lt;/div&gt;</OuterHTML>
+										<range>0</range>
+										<contentEditable>inherit</contentEditable>
+									</PROPERTIES>
+									<CTX_PROPS>
+										<BOUNDINGRECT>26|66|477|242</BOUNDINGRECT>
+										<TITLE>DIV</TITLE>
+										<NAMEKEY>id</NAMEKEY>
+										<CONTROLTYPE>DIV</CONTROLTYPE>
+										<PREFIX />
+										<TEXT />
+										<TEXTKEY>Text</TEXTKEY>
+										<PARAMNAME>container</PARAMNAME>
+										<PARENTTREE />
+										<ISVISIBLE>True</ISVISIBLE>
+									</CTX_PROPS>
+									<CHILDREN>
+										<ITEM>
+											<PROPERTIES>
+												<TAG>DIV</TAG>
+												<Text>Please complete following information : </Text>
+												<class>label</class>
+												<InnerHTML>
+                Please complete following information :
+            </InnerHTML>
+												<OuterHTML>&lt;div class="label"&gt;
+                Please complete following information :
+            &lt;/div&gt;</OuterHTML>
+												<range>0</range>
+												<contentEditable>inherit</contentEditable>
+											</PROPERTIES>
+											<CTX_PROPS>
+												<BOUNDINGRECT>27|67|350|15</BOUNDINGRECT>
+												<TITLE>DIV - Please complete following information : </TITLE>
+												<NAMEKEY>id</NAMEKEY>
+												<CONTROLTYPE>DIV</CONTROLTYPE>
+												<PREFIX />
+												<TEXT>Please complete following information : </TEXT>
+												<TEXTKEY>Text</TEXTKEY>
+												<PARAMNAME />
+												<PARENTTREE />
+												<ISVISIBLE>True</ISVISIBLE>
+											</CTX_PROPS>
+										</ITEM>
+										<ITEM>
+											<PROPERTIES>
+												<TAG>DIV</TAG>
+												<Text>Search Clear </Text>
+												<class>recherche</class>
+												<InnerHTML>
+                &lt;button id="search" onclick="search_offer();" value="search"&gt;Search&lt;/button&gt;
+                &lt;button id="clear" onclick="clear_offer();" value="clear"&gt;Clear&lt;/button&gt;
+             </InnerHTML>
+												<OuterHTML>&lt;div class="recherche"&gt;
+                &lt;button id="search" onclick="search_offer();" value="search"&gt;Search&lt;/button&gt;
+                &lt;button id="clear" onclick="clear_offer();" value="clear"&gt;Clear&lt;/button&gt;
+             &lt;/div&gt;</OuterHTML>
+												<range>1</range>
+												<contentEditable>inherit</contentEditable>
+											</PROPERTIES>
+											<CTX_PROPS>
+												<BOUNDINGRECT>377|67|100|17</BOUNDINGRECT>
+												<TITLE>DIV</TITLE>
+												<NAMEKEY>id</NAMEKEY>
+												<CONTROLTYPE>DIV</CONTROLTYPE>
+												<PREFIX />
+												<TEXT />
+												<TEXTKEY>Text</TEXTKEY>
+												<PARAMNAME />
+												<PARENTTREE />
+												<ISVISIBLE>True</ISVISIBLE>
+											</CTX_PROPS>
+											<CHILDREN>
+												<ITEM>
+													<PROPERTIES>
+														<TAG>BUTTON</TAG>
+														<id>search</id>
+														<value>search</value>
+														<Text>Search</Text>
+														<InnerHTML>Search</InnerHTML>
+														<OuterHTML>&lt;button id="search" onclick="search_offer();" value="search"&gt;Search&lt;/button&gt;</OuterHTML>
+														<range>0</range>
+														<contentEditable>inherit</contentEditable>
+														<type>submit</type>
+														<onclick>search_offer();</onclick>
+													</PROPERTIES>
+													<CTX_PROPS>
+														<BOUNDINGRECT>377|67|46|17</BOUNDINGRECT>
+														<TITLE>BUTTON - Search</TITLE>
+														<NAMEKEY>id</NAMEKEY>
+														<CONTROLTYPE>BUTTON</CONTROLTYPE>
+														<PREFIX>bt</PREFIX>
+														<TEXT>Search</TEXT>
+														<TEXTKEY>Text</TEXTKEY>
+														<PARAMNAME>search</PARAMNAME>
+														<PARENTTREE />
+														<ISVISIBLE>True</ISVISIBLE>
+													</CTX_PROPS>
+												</ITEM>
+												<ITEM>
+													<PROPERTIES>
+														<TAG>BUTTON</TAG>
+														<id>clear</id>
+														<value>clear</value>
+														<Text>Clear</Text>
+														<InnerHTML>Clear</InnerHTML>
+														<OuterHTML>&lt;button id="clear" onclick="clear_offer();" value="clear"&gt;Clear&lt;/button&gt;</OuterHTML>
+														<range>1</range>
+														<contentEditable>inherit</contentEditable>
+														<type>submit</type>
+														<onclick>clear_offer();</onclick>
+													</PROPERTIES>
+													<CTX_PROPS>
+														<BOUNDINGRECT>427|67|35|17</BOUNDINGRECT>
+														<TITLE>BUTTON - Clear</TITLE>
+														<NAMEKEY>id</NAMEKEY>
+														<CONTROLTYPE>BUTTON</CONTROLTYPE>
+														<PREFIX>bt</PREFIX>
+														<TEXT>Clear</TEXT>
+														<TEXTKEY>Text</TEXTKEY>
+														<PARAMNAME>clear</PARAMNAME>
+														<PARENTTREE />
+														<ISVISIBLE>True</ISVISIBLE>
+													</CTX_PROPS>
+												</ITEM>
+											</CHILDREN>
+										</ITEM>
+										<ITEM>
+											<PROPERTIES>
+												<TAG>DIV</TAG>
+												<Text>Contract ID : </Text>
+												<class>procom_label</class>
+												<InnerHTML>
+                Contract ID : 
+            </InnerHTML>
+												<OuterHTML>&lt;div class="procom_label"&gt;
+                Contract ID : 
+            &lt;/div&gt;</OuterHTML>
+												<range>2</range>
+												<contentEditable>inherit</contentEditable>
+											</PROPERTIES>
+											<CTX_PROPS>
+												<BOUNDINGRECT>27|97|162|30</BOUNDINGRECT>
+												<TITLE>DIV - Contract ID : </TITLE>
+												<NAMEKEY>id</NAMEKEY>
+												<CONTROLTYPE>DIV</CONTROLTYPE>
+												<PREFIX />
+												<TEXT>Contract ID : </TEXT>
+												<TEXTKEY>Text</TEXTKEY>
+												<PARAMNAME />
+												<PARENTTREE />
+												<ISVISIBLE>True</ISVISIBLE>
+											</CTX_PROPS>
+										</ITEM>
+										<ITEM>
+											<PROPERTIES>
+												<TAG>DIV</TAG>
+												<Text> </Text>
+												<class>procom_input</class>
+												<InnerHTML>
+                &lt;input id="contract_id" type="text" size="20"&gt;
+             </InnerHTML>
+												<OuterHTML>&lt;div class="procom_input"&gt;
+                &lt;input id="contract_id" type="text" size="20"&gt;
+             &lt;/div&gt;</OuterHTML>
+												<range>3</range>
+												<contentEditable>inherit</contentEditable>
+											</PROPERTIES>
+											<CTX_PROPS>
+												<BOUNDINGRECT>196|97|162|30</BOUNDINGRECT>
+												<TITLE>DIV</TITLE>
+												<NAMEKEY>id</NAMEKEY>
+												<CONTROLTYPE>DIV</CONTROLTYPE>
+												<PREFIX />
+												<TEXT />
+												<TEXTKEY>Text</TEXTKEY>
+												<PARAMNAME />
+												<PARENTTREE />
+												<ISVISIBLE>True</ISVISIBLE>
+											</CTX_PROPS>
+											<CHILDREN>
+												<ITEM>
+													<PROPERTIES>
+														<TAG>INPUT</TAG>
+														<id>contract_id</id>
+														<OuterHTML>&lt;input id="contract_id" type="text" size="20"&gt;</OuterHTML>
+														<range>0</range>
+														<contentEditable>inherit</contentEditable>
+														<type>text</type>
+														<start>fileopen</start>
+													</PROPERTIES>
+													<CTX_PROPS>
+														<BOUNDINGRECT>196|97|151|20</BOUNDINGRECT>
+														<TITLE>INPUT</TITLE>
+														<NAMEKEY>id</NAMEKEY>
+														<CONTROLTYPE>INPUT</CONTROLTYPE>
+														<PREFIX />
+														<TEXT />
+														<TEXTKEY>Text</TEXTKEY>
+														<PARAMNAME>contract_id</PARAMNAME>
+														<PARENTTREE />
+														<ISVISIBLE>True</ISVISIBLE>
+													</CTX_PROPS>
+												</ITEM>
+											</CHILDREN>
+										</ITEM>
+										<ITEM>
+											<PROPERTIES>
+												<TAG>DIV</TAG>
+												<Text>Name : </Text>
+												<class>procom_label</class>
+												<InnerHTML>
+                Name : 
+            </InnerHTML>
+												<OuterHTML>&lt;div class="procom_label"&gt;
+                Name : 
+            &lt;/div&gt;</OuterHTML>
+												<range>4</range>
+												<contentEditable>inherit</contentEditable>
+											</PROPERTIES>
+											<CTX_PROPS>
+												<BOUNDINGRECT>27|127|162|30</BOUNDINGRECT>
+												<TITLE>DIV - Name : </TITLE>
+												<NAMEKEY>id</NAMEKEY>
+												<CONTROLTYPE>DIV</CONTROLTYPE>
+												<PREFIX />
+												<TEXT>Name : </TEXT>
+												<TEXTKEY>Text</TEXTKEY>
+												<PARAMNAME />
+												<PARENTTREE />
+												<ISVISIBLE>True</ISVISIBLE>
+											</CTX_PROPS>
+										</ITEM>
+										<ITEM>
+											<PROPERTIES>
+												<TAG>DIV</TAG>
+												<Text> </Text>
+												<class>procom_input</class>
+												<InnerHTML>
+                &lt;input id="name" type="text" size="20"&gt;
+             </InnerHTML>
+												<OuterHTML>&lt;div class="procom_input"&gt;
+                &lt;input id="name" type="text" size="20"&gt;
+             &lt;/div&gt;</OuterHTML>
+												<range>5</range>
+												<contentEditable>inherit</contentEditable>
+											</PROPERTIES>
+											<CTX_PROPS>
+												<BOUNDINGRECT>196|127|162|30</BOUNDINGRECT>
+												<TITLE>DIV</TITLE>
+												<NAMEKEY>id</NAMEKEY>
+												<CONTROLTYPE>DIV</CONTROLTYPE>
+												<PREFIX />
+												<TEXT />
+												<TEXTKEY>Text</TEXTKEY>
+												<PARAMNAME />
+												<PARENTTREE />
+												<ISVISIBLE>True</ISVISIBLE>
+											</CTX_PROPS>
+											<CHILDREN>
+												<ITEM>
+													<PROPERTIES>
+														<TAG>INPUT</TAG>
+														<id>name</id>
+														<OuterHTML>&lt;input id="name" type="text" size="20"&gt;</OuterHTML>
+														<range>0</range>
+														<contentEditable>inherit</contentEditable>
+														<type>text</type>
+														<start>fileopen</start>
+													</PROPERTIES>
+													<CTX_PROPS>
+														<BOUNDINGRECT>196|127|151|20</BOUNDINGRECT>
+														<TITLE>INPUT</TITLE>
+														<NAMEKEY>id</NAMEKEY>
+														<CONTROLTYPE>INPUT</CONTROLTYPE>
+														<PREFIX />
+														<TEXT />
+														<TEXTKEY>Text</TEXTKEY>
+														<PARAMNAME>name</PARAMNAME>
+														<PARENTTREE />
+														<ISVISIBLE>True</ISVISIBLE>
+													</CTX_PROPS>
+												</ITEM>
+											</CHILDREN>
+										</ITEM>
+										<ITEM>
+											<PROPERTIES>
+												<TAG>DIV</TAG>
+												<Text>Firstname : </Text>
+												<class>procom_label</class>
+												<InnerHTML>
+                Firstname : 
+            </InnerHTML>
+												<OuterHTML>&lt;div class="procom_label"&gt;
+                Firstname : 
+            &lt;/div&gt;</OuterHTML>
+												<range>6</range>
+												<contentEditable>inherit</contentEditable>
+											</PROPERTIES>
+											<CTX_PROPS>
+												<BOUNDINGRECT>27|157|162|30</BOUNDINGRECT>
+												<TITLE>DIV - Firstname : </TITLE>
+												<NAMEKEY>id</NAMEKEY>
+												<CONTROLTYPE>DIV</CONTROLTYPE>
+												<PREFIX />
+												<TEXT>Firstname : </TEXT>
+												<TEXTKEY>Text</TEXTKEY>
+												<PARAMNAME />
+												<PARENTTREE />
+												<ISVISIBLE>True</ISVISIBLE>
+											</CTX_PROPS>
+										</ITEM>
+										<ITEM>
+											<PROPERTIES>
+												<TAG>DIV</TAG>
+												<Text> </Text>
+												<class>procom_input</class>
+												<InnerHTML>
+                &lt;input id="firstname" type="text" size="20"&gt;
+             </InnerHTML>
+												<OuterHTML>&lt;div class="procom_input"&gt;
+                &lt;input id="firstname" type="text" size="20"&gt;
+             &lt;/div&gt;</OuterHTML>
+												<range>7</range>
+												<contentEditable>inherit</contentEditable>
+											</PROPERTIES>
+											<CTX_PROPS>
+												<BOUNDINGRECT>196|157|162|30</BOUNDINGRECT>
+												<TITLE>DIV</TITLE>
+												<NAMEKEY>id</NAMEKEY>
+												<CONTROLTYPE>DIV</CONTROLTYPE>
+												<PREFIX />
+												<TEXT />
+												<TEXTKEY>Text</TEXTKEY>
+												<PARAMNAME />
+												<PARENTTREE />
+												<ISVISIBLE>True</ISVISIBLE>
+											</CTX_PROPS>
+											<CHILDREN>
+												<ITEM>
+													<PROPERTIES>
+														<TAG>INPUT</TAG>
+														<id>firstname</id>
+														<OuterHTML>&lt;input id="firstname" type="text" size="20"&gt;</OuterHTML>
+														<range>0</range>
+														<contentEditable>inherit</contentEditable>
+														<type>text</type>
+														<start>fileopen</start>
+													</PROPERTIES>
+													<CTX_PROPS>
+														<BOUNDINGRECT>196|157|151|20</BOUNDINGRECT>
+														<TITLE>INPUT</TITLE>
+														<NAMEKEY>id</NAMEKEY>
+														<CONTROLTYPE>INPUT</CONTROLTYPE>
+														<PREFIX />
+														<TEXT />
+														<TEXTKEY>Text</TEXTKEY>
+														<PARAMNAME>firstname</PARAMNAME>
+														<PARENTTREE />
+														<ISVISIBLE>True</ISVISIBLE>
+													</CTX_PROPS>
+												</ITEM>
+											</CHILDREN>
+										</ITEM>
+										<ITEM>
+											<PROPERTIES>
+												<TAG>DIV</TAG>
+												<Text>Serial Number : </Text>
+												<class>procom_label</class>
+												<InnerHTML>
+                Serial Number : 
+            </InnerHTML>
+												<OuterHTML>&lt;div class="procom_label"&gt;
+                Serial Number : 
+            &lt;/div&gt;</OuterHTML>
+												<range>8</range>
+												<contentEditable>inherit</contentEditable>
+											</PROPERTIES>
+											<CTX_PROPS>
+												<BOUNDINGRECT>27|187|162|30</BOUNDINGRECT>
+												<TITLE>DIV - Serial Number : </TITLE>
+												<NAMEKEY>id</NAMEKEY>
+												<CONTROLTYPE>DIV</CONTROLTYPE>
+												<PREFIX />
+												<TEXT>Serial Number : </TEXT>
+												<TEXTKEY>Text</TEXTKEY>
+												<PARAMNAME />
+												<PARENTTREE />
+												<ISVISIBLE>True</ISVISIBLE>
+											</CTX_PROPS>
+										</ITEM>
+										<ITEM>
+											<PROPERTIES>
+												<TAG>DIV</TAG>
+												<Text> </Text>
+												<class>procom_input</class>
+												<InnerHTML>
+                &lt;input id="serial_number" type="text" size="20"&gt;
+             </InnerHTML>
+												<OuterHTML>&lt;div class="procom_input"&gt;
+                &lt;input id="serial_number" type="text" size="20"&gt;
+             &lt;/div&gt;</OuterHTML>
+												<range>9</range>
+												<contentEditable>inherit</contentEditable>
+											</PROPERTIES>
+											<CTX_PROPS>
+												<BOUNDINGRECT>196|187|162|30</BOUNDINGRECT>
+												<TITLE>DIV</TITLE>
+												<NAMEKEY>id</NAMEKEY>
+												<CONTROLTYPE>DIV</CONTROLTYPE>
+												<PREFIX />
+												<TEXT />
+												<TEXTKEY>Text</TEXTKEY>
+												<PARAMNAME />
+												<PARENTTREE />
+												<ISVISIBLE>True</ISVISIBLE>
+											</CTX_PROPS>
+											<CHILDREN>
+												<ITEM>
+													<PROPERTIES>
+														<TAG>INPUT</TAG>
+														<id>serial_number</id>
+														<OuterHTML>&lt;input id="serial_number" type="text" size="20"&gt;</OuterHTML>
+														<range>0</range>
+														<contentEditable>inherit</contentEditable>
+														<type>text</type>
+														<start>fileopen</start>
+													</PROPERTIES>
+													<CTX_PROPS>
+														<BOUNDINGRECT>196|187|151|20</BOUNDINGRECT>
+														<TITLE>INPUT</TITLE>
+														<NAMEKEY>id</NAMEKEY>
+														<CONTROLTYPE>INPUT</CONTROLTYPE>
+														<PREFIX />
+														<TEXT />
+														<TEXTKEY>Text</TEXTKEY>
+														<PARAMNAME>serial_number</PARAMNAME>
+														<PARENTTREE />
+														<ISVISIBLE>True</ISVISIBLE>
+													</CTX_PROPS>
+												</ITEM>
+											</CHILDREN>
+										</ITEM>
+										<ITEM>
+											<PROPERTIES>
+												<TAG>DIV</TAG>
+												<Text>Equipment Type : </Text>
+												<class>procom_label</class>
+												<InnerHTML>
+                Equipment Type : 
+            </InnerHTML>
+												<OuterHTML>&lt;div class="procom_label"&gt;
+                Equipment Type : 
+            &lt;/div&gt;</OuterHTML>
+												<range>10</range>
+												<contentEditable>inherit</contentEditable>
+											</PROPERTIES>
+											<CTX_PROPS>
+												<BOUNDINGRECT>27|217|162|30</BOUNDINGRECT>
+												<TITLE>DIV - Equipment Type : </TITLE>
+												<NAMEKEY>id</NAMEKEY>
+												<CONTROLTYPE>DIV</CONTROLTYPE>
+												<PREFIX />
+												<TEXT>Equipment Type : </TEXT>
+												<TEXTKEY>Text</TEXTKEY>
+												<PARAMNAME />
+												<PARENTTREE />
+												<ISVISIBLE>True</ISVISIBLE>
+											</CTX_PROPS>
+										</ITEM>
+										<ITEM>
+											<PROPERTIES>
+												<TAG>DIV</TAG>
+												<Text> </Text>
+												<class>procom_input</class>
+												<InnerHTML>
+                &lt;input id="equipment_type" type="text" size="20"&gt;
+             </InnerHTML>
+												<OuterHTML>&lt;div class="procom_input"&gt;
+                &lt;input id="equipment_type" type="text" size="20"&gt;
+             &lt;/div&gt;</OuterHTML>
+												<range>11</range>
+												<contentEditable>inherit</contentEditable>
+											</PROPERTIES>
+											<CTX_PROPS>
+												<BOUNDINGRECT>196|217|162|30</BOUNDINGRECT>
+												<TITLE>DIV</TITLE>
+												<NAMEKEY>id</NAMEKEY>
+												<CONTROLTYPE>DIV</CONTROLTYPE>
+												<PREFIX />
+												<TEXT />
+												<TEXTKEY>Text</TEXTKEY>
+												<PARAMNAME />
+												<PARENTTREE />
+												<ISVISIBLE>True</ISVISIBLE>
+											</CTX_PROPS>
+											<CHILDREN>
+												<ITEM>
+													<PROPERTIES>
+														<TAG>INPUT</TAG>
+														<id>equipment_type</id>
+														<OuterHTML>&lt;input id="equipment_type" type="text" size="20"&gt;</OuterHTML>
+														<range>0</range>
+														<contentEditable>inherit</contentEditable>
+														<type>text</type>
+														<start>fileopen</start>
+													</PROPERTIES>
+													<CTX_PROPS>
+														<BOUNDINGRECT>196|217|151|20</BOUNDINGRECT>
+														<TITLE>INPUT</TITLE>
+														<NAMEKEY>id</NAMEKEY>
+														<CONTROLTYPE>INPUT</CONTROLTYPE>
+														<PREFIX />
+														<TEXT />
+														<TEXTKEY>Text</TEXTKEY>
+														<PARAMNAME>equipment_type</PARAMNAME>
+														<PARENTTREE />
+														<ISVISIBLE>True</ISVISIBLE>
+													</CTX_PROPS>
+												</ITEM>
+											</CHILDREN>
+										</ITEM>
+										<ITEM>
+											<PROPERTIES>
+												<TAG>DIV</TAG>
+												<Text>Offer Type : </Text>
+												<class>procom_label</class>
+												<InnerHTML>
+                Offer Type : 
+            </InnerHTML>
+												<OuterHTML>&lt;div class="procom_label"&gt;
+                Offer Type : 
+            &lt;/div&gt;</OuterHTML>
+												<range>12</range>
+												<contentEditable>inherit</contentEditable>
+											</PROPERTIES>
+											<CTX_PROPS>
+												<BOUNDINGRECT>27|247|162|30</BOUNDINGRECT>
+												<TITLE>DIV - Offer Type : </TITLE>
+												<NAMEKEY>id</NAMEKEY>
+												<CONTROLTYPE>DIV</CONTROLTYPE>
+												<PREFIX />
+												<TEXT>Offer Type : </TEXT>
+												<TEXTKEY>Text</TEXTKEY>
+												<PARAMNAME />
+												<PARENTTREE />
+												<ISVISIBLE>True</ISVISIBLE>
+											</CTX_PROPS>
+										</ITEM>
+										<ITEM>
+											<PROPERTIES>
+												<TAG>DIV</TAG>
+												<Text> </Text>
+												<class>procom_input</class>
+												<InnerHTML>
+                &lt;input id="offer_type" type="text" size="20"&gt;
+             </InnerHTML>
+												<OuterHTML>&lt;div class="procom_input"&gt;
+                &lt;input id="offer_type" type="text" size="20"&gt;
+             &lt;/div&gt;</OuterHTML>
+												<range>13</range>
+												<contentEditable>inherit</contentEditable>
+											</PROPERTIES>
+											<CTX_PROPS>
+												<BOUNDINGRECT>196|247|162|30</BOUNDINGRECT>
+												<TITLE>DIV</TITLE>
+												<NAMEKEY>id</NAMEKEY>
+												<CONTROLTYPE>DIV</CONTROLTYPE>
+												<PREFIX />
+												<TEXT />
+												<TEXTKEY>Text</TEXTKEY>
+												<PARAMNAME />
+												<PARENTTREE />
+												<ISVISIBLE>True</ISVISIBLE>
+											</CTX_PROPS>
+											<CHILDREN>
+												<ITEM>
+													<PROPERTIES>
+														<TAG>INPUT</TAG>
+														<id>offer_type</id>
+														<OuterHTML>&lt;input id="offer_type" type="text" size="20"&gt;</OuterHTML>
+														<range>0</range>
+														<contentEditable>inherit</contentEditable>
+														<type>text</type>
+														<start>fileopen</start>
+													</PROPERTIES>
+													<CTX_PROPS>
+														<BOUNDINGRECT>196|247|151|20</BOUNDINGRECT>
+														<TITLE>INPUT</TITLE>
+														<NAMEKEY>id</NAMEKEY>
+														<CONTROLTYPE>INPUT</CONTROLTYPE>
+														<PREFIX />
+														<TEXT />
+														<TEXTKEY>Text</TEXTKEY>
+														<PARAMNAME>offer_type</PARAMNAME>
+														<PARENTTREE />
+														<ISVISIBLE>True</ISVISIBLE>
+													</CTX_PROPS>
+												</ITEM>
+											</CHILDREN>
+										</ITEM>
+										<ITEM>
+											<PROPERTIES>
+												<TAG>DIV</TAG>
+												<Text>Eligibility : </Text>
+												<class>procom_label</class>
+												<InnerHTML>
+                Eligibility : 
+            </InnerHTML>
+												<OuterHTML>&lt;div class="procom_label"&gt;
+                Eligibility : 
+            &lt;/div&gt;</OuterHTML>
+												<range>14</range>
+												<contentEditable>inherit</contentEditable>
+											</PROPERTIES>
+											<CTX_PROPS>
+												<BOUNDINGRECT>27|277|162|30</BOUNDINGRECT>
+												<TITLE>DIV - Eligibility : </TITLE>
+												<NAMEKEY>id</NAMEKEY>
+												<CONTROLTYPE>DIV</CONTROLTYPE>
+												<PREFIX />
+												<TEXT>Eligibility : </TEXT>
+												<TEXTKEY>Text</TEXTKEY>
+												<PARAMNAME />
+												<PARENTTREE />
+												<ISVISIBLE>True</ISVISIBLE>
+											</CTX_PROPS>
+										</ITEM>
+										<ITEM>
+											<PROPERTIES>
+												<TAG>DIV</TAG>
+												<Text> </Text>
+												<class>procom_input</class>
+												<InnerHTML>
+                &lt;span id="eligibility"&gt;&lt;/span&gt;
+             </InnerHTML>
+												<OuterHTML>&lt;div class="procom_input"&gt;
+                &lt;span id="eligibility"&gt;&lt;/span&gt;
+             &lt;/div&gt;</OuterHTML>
+												<range>15</range>
+												<contentEditable>inherit</contentEditable>
+											</PROPERTIES>
+											<CTX_PROPS>
+												<BOUNDINGRECT>196|277|162|30</BOUNDINGRECT>
+												<TITLE>DIV</TITLE>
+												<NAMEKEY>id</NAMEKEY>
+												<CONTROLTYPE>DIV</CONTROLTYPE>
+												<PREFIX />
+												<TEXT />
+												<TEXTKEY>Text</TEXTKEY>
+												<PARAMNAME />
+												<PARENTTREE />
+												<ISVISIBLE>True</ISVISIBLE>
+											</CTX_PROPS>
+											<CHILDREN>
+												<ITEM>
+													<PROPERTIES>
+														<TAG>SPAN</TAG>
+														<id>eligibility</id>
+														<OuterHTML>&lt;span id="eligibility"&gt;&lt;/span&gt;</OuterHTML>
+														<range>0</range>
+														<contentEditable>inherit</contentEditable>
+													</PROPERTIES>
+													<CTX_PROPS>
+														<BOUNDINGRECT>196|277|0|0</BOUNDINGRECT>
+														<TITLE>SPAN</TITLE>
+														<NAMEKEY>id</NAMEKEY>
+														<CONTROLTYPE>SPAN</CONTROLTYPE>
+														<PREFIX />
+														<TEXT />
+														<TEXTKEY>Text</TEXTKEY>
+														<PARAMNAME>eligibility</PARAMNAME>
+														<PARENTTREE />
+														<ISVISIBLE>True</ISVISIBLE>
+													</CTX_PROPS>
+												</ITEM>
+											</CHILDREN>
+										</ITEM>
+									</CHILDREN>
+								</ITEM>
+							</CHILDREN>
+						</ITEM>
+					</CHILDREN>
+				</ITEM>
+			</CHILDREN>
+		</ITEM>
+	</CHILDREN>
+</PAGE>

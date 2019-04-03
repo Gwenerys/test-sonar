@@ -1,0 +1,223 @@
+﻿<PAGE Techno="WIN" Name="PAGE_ApplicationScenario_0942158_1" ProcessName="SAMPLESCENARIO.EXE" ParamName="Application Scenario - MFC" ParentTree="6227366|65552">
+	<PROPERTIES>
+		<IDENT>0</IDENT>
+		<TITRE>Application Scenario - MFC</TITRE>
+		<CLASS>#32770</CLASS>
+		<STYLE>WS_BORDER WS_CAPTION WS_DLGFRAME WS_POPUP WS_POPUPWINDOW WS_SYSMENU DS_MODALFRAME WS_VISIBLE WS_SYSMENU</STYLE>
+		<EXSTYLE>WS_EX_APPWINDOW WS_EX_CONTROLPARENT WS_EX_DLGMODALFRAME WS_EX_WINDOWEDGE</EXSTYLE>
+		<ROW />
+		<VRANGE>pas implémenté pour l'instant</VRANGE>
+		<NBPARENT>1</NBPARENT>
+		<NBCHILD>4</NBCHILD>
+		<X>0</X>
+		<XMax>0</XMax>
+		<XMin>0</XMin>
+		<Y>0</Y>
+		<YMax>0</YMax>
+		<YMin>0</YMin>
+		<CX>347</CX>
+		<CXMax>347</CXMax>
+		<CXMin>347</CXMin>
+		<CY>244</CY>
+		<CYMax>244</CYMax>
+		<CYMin>244</CYMin>
+		<RX>-347</RX>
+		<BY>-244</BY>
+		<EXE>SAMPLESCENARIO.EXE</EXE>
+	</PROPERTIES>
+	<CHILDREN>
+		<ITEM>
+			<PROPERTIES>
+				<IDENT>0</IDENT>
+				<TITRE>Application Scenario - MFC</TITRE>
+				<CLASS>#32770</CLASS>
+				<STYLE>WS_BORDER WS_CAPTION WS_DLGFRAME WS_POPUP WS_POPUPWINDOW WS_SYSMENU DS_MODALFRAME WS_VISIBLE WS_SYSMENU</STYLE>
+				<EXSTYLE>WS_EX_APPWINDOW WS_EX_CONTROLPARENT WS_EX_DLGMODALFRAME WS_EX_WINDOWEDGE</EXSTYLE>
+				<ROW />
+				<VRANGE>pas implémenté pour l'instant</VRANGE>
+				<NBPARENT>1</NBPARENT>
+				<NBCHILD>4</NBCHILD>
+				<X>0</X>
+				<XMax>0</XMax>
+				<XMin>0</XMin>
+				<Y>0</Y>
+				<YMax>0</YMax>
+				<YMin>0</YMin>
+				<CX>347</CX>
+				<CXMax>347</CXMax>
+				<CXMin>347</CXMin>
+				<CY>244</CY>
+				<CYMax>244</CYMax>
+				<CYMin>244</CYMin>
+				<RX>-347</RX>
+				<BY>-244</BY>
+				<EXE>SAMPLESCENARIO.EXE</EXE>
+			</PROPERTIES>
+			<CTX_PROPS>
+				<BOUNDINGRECT>0|0|347|244</BOUNDINGRECT>
+				<TITLE>#32770 - Application Scenario - MFC</TITLE>
+				<NAMEKEY>IDENT</NAMEKEY>
+				<CONTROLTYPE>#32770</CONTROLTYPE>
+				<PREFIX />
+				<TEXT>Application Scenario - MFC</TEXT>
+				<TEXTKEY>TITRE</TEXTKEY>
+				<PARAMNAME>Application Scenario - MFC</PARAMNAME>
+				<PARENTTREE>6227366|65552</PARENTTREE>
+				<ISVISIBLE>True</ISVISIBLE>
+			</CTX_PROPS>
+			<CHILDREN>
+				<ITEM>
+					<PROPERTIES>
+						<IDENT>1000</IDENT>
+						<TITRE>Popup1</TITRE>
+						<CLASS>Button</CLASS>
+						<STYLE>WS_CHILD WS_TABSTOP WS_VISIBLE</STYLE>
+						<ROW>R1</ROW>
+						<VRANGE>pas implémenté pour l'instant</VRANGE>
+						<NBPARENT>2</NBPARENT>
+						<NBCHILD>4</NBCHILD>
+						<X>258</X>
+						<XMax>258</XMax>
+						<XMin>258</XMin>
+						<Y>37</Y>
+						<YMax>37</YMax>
+						<YMin>37</YMin>
+						<CX>75</CX>
+						<CXMax>75</CXMax>
+						<CXMin>75</CXMin>
+						<CY>23</CY>
+						<CYMax>23</CYMax>
+						<CYMin>23</CYMin>
+						<RX>-89</RX>
+						<BY>-207</BY>
+					</PROPERTIES>
+					<CTX_PROPS>
+						<BOUNDINGRECT>258|37|75|23</BOUNDINGRECT>
+						<TITLE>Button - Popup1</TITLE>
+						<NAMEKEY>IDENT</NAMEKEY>
+						<CONTROLTYPE>Button</CONTROLTYPE>
+						<PREFIX>bt</PREFIX>
+						<TEXT>Popup1</TEXT>
+						<TEXTKEY>TITRE</TEXTKEY>
+						<PARAMNAME>Popup1</PARAMNAME>
+						<PARENTTREE>4261570|6227366|65552</PARENTTREE>
+						<ISVISIBLE>True</ISVISIBLE>
+					</CTX_PROPS>
+				</ITEM>
+				<ITEM>
+					<PROPERTIES>
+						<IDENT>1001</IDENT>
+						<TITRE>Popup2</TITRE>
+						<CLASS>Button</CLASS>
+						<STYLE>WS_CHILD WS_TABSTOP WS_VISIBLE</STYLE>
+						<ROW>R2</ROW>
+						<VRANGE>pas implémenté pour l'instant</VRANGE>
+						<NBPARENT>2</NBPARENT>
+						<NBCHILD>4</NBCHILD>
+						<X>258</X>
+						<XMax>258</XMax>
+						<XMin>258</XMin>
+						<Y>67</Y>
+						<YMax>67</YMax>
+						<YMin>67</YMin>
+						<CX>75</CX>
+						<CXMax>75</CXMax>
+						<CXMin>75</CXMin>
+						<CY>23</CY>
+						<CYMax>23</CYMax>
+						<CYMin>23</CYMin>
+						<RX>-89</RX>
+						<BY>-177</BY>
+					</PROPERTIES>
+					<CTX_PROPS>
+						<BOUNDINGRECT>258|67|75|23</BOUNDINGRECT>
+						<TITLE>Button - Popup2</TITLE>
+						<NAMEKEY>IDENT</NAMEKEY>
+						<CONTROLTYPE>Button</CONTROLTYPE>
+						<PREFIX>bt</PREFIX>
+						<TEXT>Popup2</TEXT>
+						<TEXTKEY>TITRE</TEXTKEY>
+						<PARAMNAME>Popup2</PARAMNAME>
+						<PARENTTREE>9767536|6227366|65552</PARENTTREE>
+						<ISVISIBLE>True</ISVISIBLE>
+					</CTX_PROPS>
+				</ITEM>
+				<ITEM>
+					<PROPERTIES>
+						<IDENT>1002</IDENT>
+						<CLASS>Edit</CLASS>
+						<STYLE>WS_CHILD DS_MODALFRAME WS_TABSTOP WS_VISIBLE</STYLE>
+						<ROW>R3</ROW>
+						<VRANGE>pas implémenté pour l'instant</VRANGE>
+						<NBPARENT>2</NBPARENT>
+						<NBCHILD>4</NBCHILD>
+						<X>14</X>
+						<XMax>14</XMax>
+						<XMin>14</XMin>
+						<Y>102</Y>
+						<YMax>102</YMax>
+						<YMin>102</YMin>
+						<CX>320</CX>
+						<CXMax>320</CXMax>
+						<CXMin>320</CXMin>
+						<CY>127</CY>
+						<CYMax>127</CYMax>
+						<CYMin>127</CYMin>
+						<RX>-333</RX>
+						<BY>-142</BY>
+					</PROPERTIES>
+					<CTX_PROPS>
+						<BOUNDINGRECT>14|102|320|127</BOUNDINGRECT>
+						<TITLE>Edit</TITLE>
+						<NAMEKEY>IDENT</NAMEKEY>
+						<CONTROLTYPE>Edit</CONTROLTYPE>
+						<PREFIX>ed</PREFIX>
+						<TEXT />
+						<TEXTKEY>TITRE</TEXTKEY>
+						<PARAMNAME>Edit</PARAMNAME>
+						<PARENTTREE>11993530|6227366|65552</PARENTTREE>
+						<ISVISIBLE>True</ISVISIBLE>
+					</CTX_PROPS>
+				</ITEM>
+				<ITEM>
+					<PROPERTIES>
+						<IDENT>1003</IDENT>
+						<TITRE>Start</TITRE>
+						<CLASS>Button</CLASS>
+						<STYLE>WS_CHILD WS_TABSTOP WS_VISIBLE</STYLE>
+						<ROW>R4</ROW>
+						<VRANGE>pas implémenté pour l'instant</VRANGE>
+						<NBPARENT>2</NBPARENT>
+						<NBCHILD>4</NBCHILD>
+						<X>14</X>
+						<XMax>14</XMax>
+						<XMin>14</XMin>
+						<Y>37</Y>
+						<YMax>37</YMax>
+						<YMin>37</YMin>
+						<CX>104</CX>
+						<CXMax>104</CXMax>
+						<CXMin>104</CXMin>
+						<CY>54</CY>
+						<CYMax>54</CYMax>
+						<CYMin>54</CYMin>
+						<RX>-333</RX>
+						<BY>-207</BY>
+					</PROPERTIES>
+					<CTX_PROPS>
+						<BOUNDINGRECT>14|37|104|54</BOUNDINGRECT>
+						<TITLE>Button - Start</TITLE>
+						<NAMEKEY>IDENT</NAMEKEY>
+						<CONTROLTYPE>Button</CONTROLTYPE>
+						<PREFIX>bt</PREFIX>
+						<TEXT>Start</TEXT>
+						<TEXTKEY>TITRE</TEXTKEY>
+						<PARAMNAME>Start</PARAMNAME>
+						<PARENTTREE>2495448|6227366|65552</PARENTTREE>
+						<ISVISIBLE>True</ISVISIBLE>
+					</CTX_PROPS>
+				</ITEM>
+			</CHILDREN>
+		</ITEM>
+	</CHILDREN>
+</PAGE>

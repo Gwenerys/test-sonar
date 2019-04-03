@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ConteXtorStudio Version="StudioReco V1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="XsdStudio.xsd">
+	<PROCESSUS>
+		<PROCESS Name="GLOBAL" Key="NoKey" Comment="Global Processus">
+			<_DECLAREVAR>
+				<STRUCTUREDON Name="GLOBAL" />
+			</_DECLAREVAR>
+			<SCRIPTS />
+			<RESOURCES />
+		</PROCESS>
+	</PROCESSUS>
+	<APPLICATIONS>
+		<APPLI Name="ApplicationScenario" Nature="WIN" TechnoSDK="V3">
+			<CAPTURE Name="APPLI_ApplicationScenario_1" CtxtId="11" Techno="WIN" />
+			<CRITERE>
+				<EXE Scan="Full"><![CDATA[SAMPLESCENARIO.EXE]]></EXE>
+			</CRITERE>
+			<_DECLAREVAR>
+				<STRUCTUREDON Name="ApplicationScenario" />
+			</_DECLAREVAR>
+			<_ECRANS>
+				<PAGE Name="pApplicationScenario" Comment="#32770 - Application Scenario - MFC">
+					<CRITERE>
+						<TITRE Scan="Full"><![CDATA[Application Scenario - MFC]]></TITRE>
+					</CRITERE>
+					<OBJETS>
+						<OBJET Name="edEdit" CapturedPos="17.R0R2" TypObj="Txt">
+							<CRITERE>
+								<IDENT><![CDATA[1002]]></IDENT>
+							</CRITERE>
+							<TRACK_EVENTS>
+								<TRACK_EVENT Name="COMMAND" />
+							</TRACK_EVENTS>
+						</OBJET>
+						<OBJET Name="btStart" CapturedPos="17.R0R3" TypObj="Btn">
+							<CRITERE>
+								<IDENT><![CDATA[1003]]></IDENT>
+							</CRITERE>
+							<TRACK_EVENTS>
+								<TRACK_EVENT Name="COMMAND" />
+							</TRACK_EVENTS>
+						</OBJET>
+						<OBJET Name="btPopup1" CapturedPos="17.R0R0" TypObj="Btn">
+							<CRITERE>
+								<IDENT><![CDATA[1000]]></IDENT>
+							</CRITERE>
+						</OBJET>
+						<OBJET Name="btPopup2" CapturedPos="17.R0R1" TypObj="Btn">
+							<CRITERE>
+								<IDENT><![CDATA[1001]]></IDENT>
+							</CRITERE>
+						</OBJET>
+					</OBJETS>
+					<CAPTURE Name="PAGE_ApplicationScenario_0942158_1" Comment="#32770 - Application Scenario - MFC" CtxtId="17" Techno="WIN" CapturedPos="17.R0" Timestamp="10/10/2017 09:42:15" />
+				</PAGE>
+				<PAGE Name="pPopup1" Comment="#32770 - Popup 1">
+					<CRITERE>
+						<IDENT><![CDATA[0]]></IDENT>
+						<TITRE Scan="Full"><![CDATA[Popup 1]]></TITRE>
+					</CRITERE>
+					<OBJETS>
+						<OBJET Name="edEdit" CapturedPos="18.R0R1" TypObj="Txt">
+							<CRITERE>
+								<IDENT><![CDATA[1004]]></IDENT>
+							</CRITERE>
+						</OBJET>
+						<OBJET Name="btClose" CapturedPos="18.R0R0" TypObj="Btn">
+							<CRITERE>
+								<IDENT><![CDATA[1]]></IDENT>
+							</CRITERE>
+						</OBJET>
+					</OBJETS>
+					<CAPTURE Name="PAGE_Popup1_0942416_1" Comment="#32770 - Popup 1" CtxtId="18" Techno="WIN" CapturedPos="18.R0" Timestamp="10/10/2017 09:42:41" />
+				</PAGE>
+				<PAGE Name="pPopup2" Comment="#32770 - Popup 2">
+					<CRITERE>
+						<TITRE Scan="Full"><![CDATA[Popup 2]]></TITRE>
+					</CRITERE>
+					<OBJETS>
+						<OBJET Name="edEdit" CapturedPos="19.R0R1" TypObj="Txt">
+							<CRITERE>
+								<IDENT><![CDATA[1004]]></IDENT>
+							</CRITERE>
+						</OBJET>
+						<OBJET Name="btClose" CapturedPos="19.R0R0" TypObj="Btn">
+							<CRITERE>
+								<IDENT><![CDATA[1]]></IDENT>
+							</CRITERE>
+						</OBJET>
+					</OBJETS>
+					<CAPTURE Name="PAGE_Popup2_0943015_1" Comment="#32770 - Popup 2" CtxtId="19" Techno="WIN" CapturedPos="19.R0" Timestamp="10/10/2017 09:43:01" />
+				</PAGE>
+			</_ECRANS>
+			<PATH><![CDATA[d:\Profiles\gbriere\Desktop\RPA\Contextor\3.2.6\Samples\applications\win\SampleScenario.exe]]></PATH>
+			<SCRIPTS />
+			<ACTIONS />
+			<EVENTS />
+			<SCENARII>
+				<Steps />
+			</SCENARII>
+		</APPLI>
+	</APPLICATIONS>
+</ConteXtorStudio>

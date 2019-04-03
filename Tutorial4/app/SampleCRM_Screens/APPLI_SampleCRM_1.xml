@@ -1,0 +1,5 @@
+﻿<APPLI Techno="WIN" Name="APPLI_SampleCRM_1" ParamName="Sample CRM">
+	<PROPERTIES>
+		<EXE>SAMPLECRM.EXE</EXE>
+	</PROPERTIES>
+</APPLI>

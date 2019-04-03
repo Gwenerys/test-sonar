@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ConteXtorStudio Version="Studio V3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="XsdStudio.xsd">
+	<Properties>
+		<Property Name="validity" />
+		<Property Name="cyphering">0</Property>
+		<Property Name="compression">1</Property>
+	</Properties>
+	<UpdatePackages />
+	<Evolutions>
+		<Evolution Version="1.0" Date="10/10/2017"><![CDATA[Project creation]]></Evolution>
+		<Evolution Version="..." Date="..."><![CDATA[...]]></Evolution>
+	</Evolutions>
+	<PROCESSUS>
+		<PROCESS Name="GLOBAL" Key="NoKey" Comment="Global Processus">
+			<_DECLAREVAR>
+				<STRUCTUREDON Name="GLOBAL">
+					<OBJDON Name="PrjVersion">1.0</OBJDON>
+					<OBJDON Name="PrjClient"><![CDATA[Sopra]]></OBJDON>
+					<OBJDON Name="PrjName">Tutorial4</OBJDON>
+					<OBJDON Name="PrjDate">10/10/2017</OBJDON>
+					<OBJDON Name="PrjLabel"><![CDATA[Tutorial 4 - Scenario]]></OBJDON>
+					<OBJDON Name="PrjComment"><![CDATA[]]></OBJDON>
+					<OBJDON Name="LicenceURL" />
+					<STRUCTUREDON Name="Xc_MessBoxHtml">
+						<OBJDON Name="Style">style="font-size:12pt;font-family:'Arial'"</OBJDON>
+						<OBJDON Name="ErrColor">white</OBJDON>
+						<OBJDON Name="InfoColor">white</OBJDON>
+						<OBJDON Name="ChoiceColor">white</OBJDON>
+						<OBJDON Name="WarningColor">white</OBJDON>
+						<OBJDON Name="ErrIcon">Critical.gif</OBJDON>
+						<OBJDON Name="InfoIcon">Info.gif</OBJDON>
+						<OBJDON Name="ChoiceIcon">Pencil.gif</OBJDON>
+						<OBJDON Name="WarningIcon">Warning.gif</OBJDON>
+						<OBJDON Name="StyleButton">style="font-size:12px;font-family:'Arial';width:80px"</OBJDON>
+						<OBJDON Name="StyleText">style="font-size=11pt;font-family='Arial'"</OBJDON>
+						<OBJDON Name="IconSize">32</OBJDON>
+					</STRUCTUREDON>
+				</STRUCTUREDON>
+			</_DECLAREVAR>
+			<SCRIPTS>
+				<!-- framework files -->
+				<SCRIPT Name="Constants" Src="%sdk%\lib\common\ctx.enum.js" Folder="Framework" />
+				<SCRIPT Name="Ctx Core" Src="%sdk%\lib\ctx\ctx.core.js" Folder="Framework" />
+				<SCRIPT Name="Ctx XML" Src="%sdk%\lib\ctx\ctx.xml.js" Folder="Framework" />
+				<SCRIPT Name="Ctx Scenario" Src="%sdk%\lib\ctx\ctx.scenario.js" Folder="Framework" />
+				<SCRIPT Name="Ctx Request" Src="%sdk%\lib\ctx\ctx.request.js" Folder="Framework" />
+				<SCRIPT Name="Ctx Language" Src="%sdk%\lib\ctx\ctx.language.js" Folder="Framework" />
+				<SCRIPT Name="Ctx Item" Src="%sdk%\lib\ctx\ctx.item.js" Folder="Framework" />
+				<SCRIPT Name="Ctx Page" Src="%sdk%\lib\ctx\ctx.page.js" Folder="Framework" />
+				<SCRIPT Name="Ctx Application" Src="%sdk%\lib\ctx\ctx.application.js" Folder="Framework" />
+				<SCRIPT Name="Ctx Systray" Src="%sdk%\lib\ctx\ctx.systray.js" Folder="Framework" />
+				<SCRIPT Name="Ctx Popup" Src="%sdk%\lib\ctx\ctx.popup.js" Folder="Framework" />
+				<SCRIPT Name="Ctx Popup Bootbox" Src="%sdk%\lib\ctx\ctx.popup.bootbox.js" Folder="Framework" />
+				<!-- framework extensions -->
+				<SCRIPT Name="FSO library" Src="%sdk%\lib\utils\fso.js" Folder="Libraries" />
+				<SCRIPT Name="WMI library" Src="%sdk%\lib\utils\wmi.js" Folder="Libraries" />
+				<SCRIPT Name="WScript library" Src="%sdk%\lib\utils\wscript.js" Folder="Libraries" />
+				<SCRIPT Name="Ctx Diagnostic" Src="%sdk%\lib\ctx\ctx.diagnostic.js" Folder="Framework" />
+				<SCRIPT Name="Ctx Discovery" Src="%sdk%\lib\ctx\ctx.discovery.js" Folder="Framework" />
+				<!-- generated definition file -->
+				<SCRIPT Name="Declarations" Src="Tutorial4.resources.js" ReadOnly="Y" />
+				<!-- project files -->
+				<SCRIPT Name="Main" Src="Tutorial4.js" />
+				<SCRIPT Name="Test" Src="Tutorial4.test.js" />
+				<SCRIPT Name="AppliScenario" Src="AppliScenario.js" />
+				<SCRIPT Name="MainProject" Src="mainProject.js" />
+			</SCRIPTS>
+			<RESOURCES>
+				<!-- html resources -->
+				<RESOURCE Name="Popup Bootbox" Src="%sdk%\templates\resources\popup\" Dest="popup" />
+				<!-- bitmaps -->
+				<RESOURCE Name="contextor 16px" Src="%sdk%\templates\resources\bmp\contextor.png" Dest="bmp" />
+				<RESOURCE Name="accept 16px" Src="%sdk%\templates\resources\bmp\accept.png" Dest="bmp" />
+				<RESOURCE Name="cancel 16px" Src="%sdk%\templates\resources\bmp\cancel.png" Dest="bmp" />
+				<RESOURCE Name="help 16px" Src="%sdk%\templates\resources\bmp\help.png" Dest="bmp" />
+				<RESOURCE Name="information 16px" Src="%sdk%\templates\resources\bmp\information.png" Dest="bmp" />
+				<RESOURCE Name="repeat 16px" Src="%sdk%\templates\resources\bmp\repeat.png" Dest="bmp" />
+				<RESOURCE Name="stop 16px" Src="%sdk%\templates\resources\bmp\stop.png" Dest="bmp" />
+				<RESOURCE Name="warning 16px" Src="%sdk%\templates\resources\bmp\warning.png" Dest="bmp" />
+				<RESOURCE Name="record 16px" Src="%sdk%\templates\resources\bmp\record.png" Dest="bmp" />
+				<RESOURCE Name="contextor 32px" Src="%sdk%\templates\resources\bmp32\contextor.png" Dest="bmp32" />
+				<RESOURCE Name="accept 32px" Src="%sdk%\templates\resources\bmp32\accept.png" Dest="bmp32" />
+				<RESOURCE Name="cancel 32px" Src="%sdk%\templates\resources\bmp32\cancel.png" Dest="bmp32" />
+				<RESOURCE Name="help 32px" Src="%sdk%\templates\resources\bmp32\help.png" Dest="bmp32" />
+				<RESOURCE Name="information 32px" Src="%sdk%\templates\resources\bmp32\information.png" Dest="bmp32" />
+				<RESOURCE Name="user 32px" Src="%sdk%\templates\resources\bmp32\user.png" Dest="bmp32" />
+				<RESOURCE Name="warning 32px" Src="%sdk%\templates\resources\bmp32\warning.png" Dest="bmp32" />
+				<RESOURCE Name="icon 64px" Src="%sdk%\templates\resources\bmp64\contextor.png" Dest="bmp64" />
+				<RESOURCE Name="hello 64px" Src="%sdk%\templates\resources\bmp64\hello.png" Dest="bmp64" />
+				<RESOURCE Name="hello 128px" Src="%sdk%\templates\resources\bmp64\hello128.png" Dest="bmp64" />
+				<RESOURCE Name="gif" Src="%sdk%\templates\resources\gif\" Dest="gif" />
+			</RESOURCES>
+			<ACTIONS />
+			<EVENTS />
+			<SCENARII>
+				<Steps />
+			</SCENARII>
+		</PROCESS>
+	</PROCESSUS>
+	<APPLICATIONS>
+		<include href="app/Eligibility.pscp" xpointer="xpointer(//APPLI)" />
+		<include href="app/ApplicationScenario.pscp" xpointer="xpointer(//APPLI)" />
+		<include href="app/SampleCRM.pscp" xpointer="xpointer(//APPLI)" />
+	</APPLICATIONS>
+</ConteXtorStudio>
